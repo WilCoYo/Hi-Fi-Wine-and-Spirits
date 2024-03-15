@@ -207,9 +207,6 @@ footer a:hover {
 
 @media(max-width: 400px){
 
-    footer {
-        position: relative;
-    }
 
     footer span{
         display: none;
@@ -231,7 +228,6 @@ footer a:hover {
         grid-template-columns: 1;
         grid-template-rows: 4;
         justify-items: center;
-        margin-bottom: 2%;
     }
 
     .ageInput {
