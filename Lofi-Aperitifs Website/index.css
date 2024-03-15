@@ -165,13 +165,17 @@ footer a:hover {
 
 @media(max-width: 770px){
 
+    footer {
+        position: relative;
+    }
+
     section{
         width: 100%;
         transform: translateX(0);
     }
 
     .ageForm {
-        padding-top: 5%;
+        margin-bottom: 2%;
     }
 
   
@@ -181,9 +185,6 @@ footer a:hover {
         margin: 0 10% 0 10%;
     }
 
-    .ageForm {
-        margin-bottom: 2%;
-    }
 
     footer span {
         position: absolute;
@@ -205,6 +206,10 @@ footer a:hover {
 }
 
 @media(max-width: 400px){
+
+    footer {
+        position: relative;
+    }
 
     footer span{
         display: none;
