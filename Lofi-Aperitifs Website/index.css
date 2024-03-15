@@ -181,6 +181,10 @@ footer a:hover {
         margin: 0 10% 0 10%;
     }
 
+    .ageForm {
+        margin-bottom: 2%;
+    }
+
     footer span {
         position: absolute;
         bottom: 0;
