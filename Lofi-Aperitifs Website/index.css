@@ -201,13 +201,21 @@ footer a:hover {
 }
 
 @media(max-width: 400px){
+
+
     footer span{
         display: none;
     }
 
     footer ul {
-        bottom: 0;
+        display: inline-flex;
+        width: 100%;
+        margin-top: 2%;
         margin-bottom: 0;
+    }
+
+    footer li {
+        padding: 1%;
     }
 
     .ageForm {
