@@ -201,7 +201,9 @@ footer a:hover {
 }
 
 @media(max-width: 400px){
-
+    footer {
+        position:unset;
+    }
 
     footer span{
         display: none;
