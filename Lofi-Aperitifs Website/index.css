@@ -200,9 +200,14 @@ footer a:hover {
 
 }
 
-@media(max-width: 375px){
+@media(max-width: 400px){
     footer span{
         display: none;
+    }
+
+    footer ul {
+        bottom: 0;
+        margin-bottom: 0;
     }
 
     .ageForm {
