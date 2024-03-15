@@ -1,0 +1,225 @@
+*{
+    margin: 0;
+    padding: 0;
+    
+}
+
+/*Logo*/
+
+header {
+    display: flex;
+    justify-content: center;
+    align-content: center;
+    width: 100%;
+    margin-top: 5rem;
+}
+
+
+/*Welcome && Disclaimer*/
+
+.welcome {
+    display: flex;
+    justify-content: center;
+    padding-top: 3%;
+    font-size: 3rem;
+    font-family: "Big Shoulders Inline Text", sans-serif;
+    letter-spacing: .5rem;
+}
+
+section {
+    text-align: center;
+    word-wrap: break-word;
+    margin-top: 2%;
+    margin-bottom: 2%;
+    width: 70%;
+    transform: translateX(20%);
+    font-size: 1.25rem;
+    font-family: "Montserrat", sans-serif;
+}
+
+section a {
+    color: black;
+}
+
+
+/*Birthdate Entry Inputs && Submit Button*/
+
+.ageForm {
+    display: inline-flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    width: 100%;
+    margin-top: .5%;
+}
+
+.ageInput{
+    padding-left: .25rem;
+    padding-right: .25rem;
+    height: 3rem;
+    width: 6rem;
+    margin: .5rem;
+    font-size: 1.25rem;
+    font-weight: bold;
+}
+
+#ageSubmit {
+    font-size: .9rem;
+    height: 3.25rem;
+    width: 9rem;
+}
+
+
+/*Copyright and Footer*/
+
+footer{
+    position: fixed;
+    bottom: 0;
+    width: 100%;
+    text-align: center;
+    align-content: center;
+}
+
+footer span{
+    bottom: 0;
+    left: 0;
+    width: 50%;
+    font-size: 1.1rem;
+    letter-spacing: .2rem;
+}
+
+footer ul {
+    list-style: none;
+    display: flex;
+    justify-content: center;
+}
+
+footer li {
+    height: 2rem;
+    padding: 0 3rem 1rem 3rem;
+    text-decoration: none;
+    color: black;
+    align-items: center;
+    font-family: "Montserrat", sans-serif;
+}
+
+footer a {
+    height: 100%;
+    text-decoration: none;
+    color: black;
+}
+
+footer a:hover {
+    text-decoration: underline;
+}
+
+
+/*Dialogue box that appears when 'Trademarks link is clicked*/
+
+#dialog{
+    position: fixed;
+    top: 50%;
+    left: 50%;
+    height: 30%;
+    width: 35%;
+    -webkit-transform: translate(-50%, -50%);
+    transform: translate(-50%, -50%);
+    display: none;
+    z-index: 999;
+    background-color: white;
+    text-align: center;
+}
+
+#dialog h1 {
+    padding-top: 7%;
+    font-size: 3rem;
+    font-family: "Big Shoulders Inline Text", sans-serif;
+    letter-spacing: .4rem;
+}
+
+#dialog p {
+    padding-top: 12%;
+    font-size: 1.25rem;
+    font-family: "Montserrat", sans-serif;
+}
+
+.material-symbols-outlined{
+    position: absolute;
+    text-decoration: none;
+    right: 1%;
+    top: 3%;
+}
+
+/*Dims screen behind 'Trademarks' dialogue box*/
+
+#dimmer {
+    display: none;
+    height: 100vh;
+    width: 100%;
+    background-color: rgba(104, 102, 102, 0.658);
+    z-index: 998;
+}
+
+
+
+/*Media Queries*/
+
+@media(max-width: 770px){
+
+    section{
+        width: 100%;
+        transform: translateX(0);
+    }
+
+    .ageForm {
+        padding-top: 5%;
+    }
+
+  
+
+    #ageSubmit {
+        flex-basis: 100%;
+        margin: 0 10% 0 10%;
+    }
+
+    footer span {
+        position: absolute;
+        bottom: 0;
+        width: 100%;
+        margin: 5% auto 0;
+        text-align: center;
+    }
+
+    footer ul{
+        display: inline-block;
+        margin-bottom: 10%;
+    }
+    
+    li.footerLinks{
+        justify-content: center;
+    }
+
+}
+
+@media(max-width: 375px){
+    footer span{
+        display: none;
+    }
+
+    .ageForm {
+        display: grid;
+        grid-template-columns: 1;
+        grid-template-rows: 4;
+        justify-items: center;
+    }
+
+    .ageInput {
+        width: 75%;
+        margin-top: 3%;
+        margin-bottom: 3%;
+    }
+
+    #ageSubmit {
+        margin-top: 3%;
+    }
+}
+

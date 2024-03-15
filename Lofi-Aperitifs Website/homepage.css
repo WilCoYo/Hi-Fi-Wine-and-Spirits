@@ -1,0 +1,123 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    height: 100vh;
+}
+
+header{
+    z-index: 5;
+    /*position: fixed;*/
+    height: 12rem;
+    width: 100%;
+    box-shadow: 0px 14px 20px -20px rgba(192, 61, 61, 0.45);
+}
+
+upperNav ul {
+    display: flex;
+    justify-content: space-between;
+    list-style: none;
+    margin: 2%;
+}
+
+upperNav li,
+upperNav a,
+lowerNav li,
+lowerNav a {
+    text-decoration: none;
+    color: black;
+    font-family: "Montserrat", sans-serif;
+}
+
+lowerNav ul {
+    display: flex;
+    justify-content: center;
+    list-style: none;
+    margin: 1% auto;
+}
+
+lowerNav li {
+    padding: 0 2rem;
+    margin-left: 1%;
+    font-size: 1.25rem;
+    
+}
+
+.hero_banner img{
+    width: 100%;
+    margin-bottom: -1%;
+}
+
+
+.aboutUsSection {
+    display: inline-flex;
+}
+
+.aboutUs_1 {
+    width: 50%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: #FF465E;
+}
+
+.aboutUs_1 .readMore {
+    text-align: center;
+    height: 40%;
+    margin: 3rem 6rem;
+    padding: 3rem;
+    background: #FF8D90
+}
+
+
+.aboutUs_1 h1 {
+    margin-bottom: 5%;
+    font-size: 3.5rem;
+    letter-spacing: .4rem;
+    color: white;
+    font-family: "Big Shoulders Inline Text", sans-serif;
+}
+
+.aboutUs_1 span {
+    font-size: 1.5rem;
+    font-weight: bold;
+    color: white;
+    font-family: "Montserrat", sans-serif;
+}
+
+.aboutUs_1 p {
+    margin-top: 5%;
+    color: white;
+    font-size: 1.25rem;
+    font-family: "Montserrat", sans-serif;
+}
+
+.readMoreBtn {
+    text-decoration: none;
+    margin-top: 5%;
+    background-color: white;
+    color:#FF8D90;
+    border: none;
+    font-weight: bold;
+    font-size: 1.5rem;
+    padding: 1%;
+    
+}
+
+.aboutUs_2 {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    overflow: hidden;
+    height: 60rem;
+    width: 50%;
+}
+
+.aboutUs_2 img {
+    min-height: 100%;
+    min-width: 100%;
+}
+
+
