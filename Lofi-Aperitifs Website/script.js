@@ -34,7 +34,7 @@ const underageChecker = () => {
         alert('Please enter valid birthdate');
         return;
     } else if ((year - inputYearValue) > 21 || ((year - inputYearValue) === 21 && month > inputMonthValue) || ((year - inputYearValue) === 21 && month === inputMonthValue && day >= inputDayValue)) {
-        window.location.href = "../Lofi-Aperitifs Website/homepage.html"
+        window.location.href = "./Lofi-Aperitifs Website/homepage.html"
     } 
     else {
         alert("I'm sorry but you are not old enough to view this content.");
