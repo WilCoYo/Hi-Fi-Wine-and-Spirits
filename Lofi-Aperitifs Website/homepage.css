@@ -236,6 +236,7 @@ lowerNav li {
     font-family: "Big Shoulders Inline Text", sans-serif;
     font-size: 3.5rem;
     padding-bottom: 5%;
+    width: 100%;
 }
 
 .cocktailRightContent section {
