@@ -41,3 +41,18 @@ const underageChecker = () => {
     }
 };
 
+
+window.onscroll = function() {scrollFunction()};
+
+const scrollFunction = () => {
+  if (document.body.scrollTop > 50 || document.documentElement.scrollTop > 50) {
+    document.getElementById("upperNav").style.display = "none";
+    document.querySelector("header").style.height = '7rem';
+    document.querySelector("lowerNav").style.margin = "1.5rem";
+  } else {
+    document.getElementById("upperNav").style.display = "";
+    document.querySelector("header").style.height = "14rem";
+    document.querySelector("lowerNav").style.margin = "";
+  }
+
+}

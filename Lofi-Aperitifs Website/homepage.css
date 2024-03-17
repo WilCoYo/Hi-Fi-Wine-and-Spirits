@@ -7,14 +7,18 @@ body {
     height: 100vh;
 }
 
-/*vv Header Section vv*/
+/********vv Header Section vv**********/
 header{
-    z-index: 5;
-    /*position: fixed;*/
-    height: 12rem;
+    position: fixed;
+    top: 0;
+    z-index: 100;
+    height: 14rem;
     width: 100%;
+    background-color: white;
     box-shadow: 0px 14px 20px -20px rgba(192, 61, 61, 0.45);
+    transition: 0.2s;
 }
+
 
 upperNav ul {
     display: flex;
@@ -22,6 +26,7 @@ upperNav ul {
     list-style: none;
     margin: 2%;
 }
+
 
 upperNav li,
 upperNav a,
@@ -48,9 +53,13 @@ lowerNav li {
 /***********^^ Header Section ^^************/
 
 
+
+
+
 /***********vv Main Hero Banner vv**********/
 .hero_banner img{
     width: 100%;
+    margin-top: 14rem;
     margin-bottom: -1%;
 }
 
@@ -100,6 +109,7 @@ lowerNav li {
 }
 
 .readMoreBtn {
+    cursor: pointer;
     text-decoration: none;
     margin-top: 5%;
     background-color: white;
@@ -107,7 +117,7 @@ lowerNav li {
     border: none;
     font-weight: bold;
     font-size: 1.5rem;
-    padding: 1%;
+    padding: 1% 3%;
     
 }
 
@@ -125,6 +135,8 @@ lowerNav li {
     min-width: 100%;
 }
 /***********^^ Main Hero Banner ^^**********/
+
+
 
 
 
@@ -176,7 +188,6 @@ lowerNav li {
     font-weight: bold;
     font-size: 1.2rem;
     padding: 1.5% 2%;
-
     background-color: #CBEAF5;
     color: #F8445D;
 }
@@ -184,23 +195,27 @@ lowerNav li {
 /***********^^ Shopping Section ^^**********/
 
 
+
+
 /***********vv Cocktail Section vv**********/
 
 .cocktail {
     padding-top: 5%;
     width: 100%;
-    height: 75rem;
+    height: 60rem;
     display: flex;
     justify-content: center;
+    
 }
 
 .cocktailLeft {
     height: 100%;
     width: 50%;
+    overflow: hidden;
 }
 
 .cocktailLeft img{
-    height: 100%;
+    height: 75rem;
     width: 100%;
 }
 .cocktailRight{
@@ -231,6 +246,7 @@ lowerNav li {
 }
 
 .cocktailRightContent button {
+    cursor: pointer;
     font-size: 1.3rem;
     font-family: "Montserrat", sans-serif;
     font-weight: bold;
@@ -240,4 +256,38 @@ lowerNav li {
     border: solid;
     border-width: .15rem;
     border-color: #F8445D;
+}
+
+/***********^^ Cocktail Section ^^**********/
+
+
+
+/*********vv Social Media Section vv*********/
+
+.social {
+    width: 100%;
+}
+.social h1 {
+    color: #F8445D;
+    font-size: 3rem;
+    font-family: "Big Shoulders Inline Text", sans-serif;
+    letter-spacing: 1rem;
+    text-align: center;
+    padding: 3% 5%;
+}
+
+.socialImages {
+    display: flex;
+    justify-content: center;
+    height: 30rem;
+    width: 100%;
+}
+
+.socialImg {
+    padding: 1% .5%;
+}
+
+.socialImg img{
+    height: 80%;
+    width: 100%;
 }
