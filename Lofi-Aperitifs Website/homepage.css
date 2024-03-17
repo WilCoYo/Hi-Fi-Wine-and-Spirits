@@ -130,31 +130,65 @@ lowerNav li {
 /***********vv Shopping Section vv**********/
 
 .shopSection {
-    display: flex;
-    justify-content: center;
     width: 100%;
-    height: 40%;
-    padding-top: 3%;
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    grid-template-rows: 22rem;
+    column-gap: 2%;
+
+    padding-top: 2%;
+    justify-items: center;
 }
 
 .shopSection img {
-    height: 140%;
+    width: 100%;
     
-}
-
-.shopSection section {
-    width: 23rem;
 }
 
 .productOne{
-    
+    grid-column-start: 1;
+    grid-column-end: 2;
+
+    text-align: center;
+
 }
 
 .productTwo{
-    padding-left: 1.5%;
-    padding-right: 1.5%; 
+    grid-column-start: 2;
+    grid-column-end: 3;
+    
+    text-align: center;
 }
 
 .productThree {
+    grid-column-start: 3;
+    grid-column-end: 4;
 
+    text-align: center;
 }
+
+.shopSection h2,
+.shopSection section {
+    font-family: "Montserrat", sans-serif;
+    color: #F8445D;
+    padding-top: 1rem;
+    padding-bottom: 1rem;
+}
+
+
+.shopSection section {
+    font-size: 1.25rem;
+}
+
+.shopSection button {
+    cursor: pointer;
+    text-decoration: none;
+    border: none;
+    font-weight: bold;
+    font-size: 1.2rem;
+    padding: 1.5% 2%;
+
+    background-color: #CBEAF5;
+    color: #F8445D;
+}
+
