@@ -58,6 +58,25 @@ lowerNav li {
     font-size: 1.25rem;
     
 }
+
+@media(max-width: 425px){
+
+    .find {
+        display: none;
+    }
+
+    .search {
+        display: none;
+    }
+
+    .lowerNav a {
+        font-size: 1rem;
+    }
+
+    
+}
+
+
 /***********^^ Header Section ^^************/
 
 
@@ -193,11 +212,15 @@ lowerNav li {
 
 @media(max-width: 625px){
     .aboutUs_1 h1 {
-        font-size: 2rem;
+        font-size: 2.5rem;
     }
 
     .readMore {
-        padding: 0;
+        padding: 0 .5rem;
+    }
+
+    .readMore button {
+        margin-top: 2rem;
     }
 }
 
@@ -389,6 +412,10 @@ lowerNav li {
     width: 100%;
 }
 
+.socialHeader {
+    width: 100%;
+}
+
 .social h1 {
     color: #F8445D;
     font-size: 3rem;
@@ -396,7 +423,7 @@ lowerNav li {
     letter-spacing: 1rem;
     text-align: center;
     padding: 3% 5%;
-    width: 100%;
+    width: 90%;
 }
 
 .socialImages {
@@ -414,6 +441,12 @@ lowerNav li {
 .socialImg img{
     height: 100%;
     width: 100%;
+}
+
+@media(max-width: 545px){
+    .social h1 {
+        letter-spacing: .3rem;
+    }
 }
 
 /*********^^ Social Media Section ^^*********/
