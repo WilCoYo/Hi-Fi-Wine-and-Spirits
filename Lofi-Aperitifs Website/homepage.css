@@ -9,6 +9,7 @@ body {
 
 /********vv Header Section vv**********/
 header{
+    height: 14rem;
     position: fixed;
     top: 0;
     z-index: 100;
@@ -69,8 +70,25 @@ lowerNav li {
         display: none;
     }
 
-    .lowerNav a {
+    upperNav ul {
+        margin: 0;
+        justify-content: center;
+    }
+
+    lowerNav ul {
+        margin-top: 1rem;
+    }
+
+    lowerNav a {
         font-size: 1rem;
+    }
+
+    lowerNav li {
+        text-align: center;
+    }
+
+    lowerNav br {
+        display: "";
     }
 
     
@@ -215,12 +233,16 @@ lowerNav li {
         font-size: 2.5rem;
     }
 
+    .aboutUs_1 span {
+        font-size: 1rem;
+    }
+
     .readMore {
         padding: 0 .5rem;
     }
 
     .readMore button {
-        margin-top: 2rem;
+        margin-top: .75rem;
     }
 }
 
@@ -287,6 +309,28 @@ lowerNav li {
     background-color: #CBEAF5;
     color: #F8445D;
 }
+
+@media(max-width: 425px){
+    .shopSection {
+        display: grid;
+    }
+
+    .productTwo {
+        padding: 0;
+    }
+
+    .productOne,
+    .productTwo,
+    .productThree {
+        margin-top: 1rem;
+        box-shadow: 0px -14px 20px -20px rgba(192, 61, 61, 0.45);
+    }
+
+
+
+}
+
+
 
 /***********^^ Shopping Section ^^**********/
 
@@ -521,6 +565,21 @@ footer {
     padding-left: 2%;
 }
 
+@media(max-width: 420px){
+
+    .footerRight ul {
+        padding-top: 1%;
+    }
+
+    .footerRight li {
+        padding-top: 8%;
+    }
+
+    .footerLeft li {
+        font-size: 1rem;
+        padding-top: 3%;
+    }
+}
 
 
 
@@ -566,4 +625,8 @@ footer {
     cursor: pointer;
     text-decoration: none;
     color: black;
+}
+
+@media(max-width: 420px){
+     
 }
