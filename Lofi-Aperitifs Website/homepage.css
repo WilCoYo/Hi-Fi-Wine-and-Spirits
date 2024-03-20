@@ -573,6 +573,9 @@ footer {
 }
 
 @media(max-width: 420px){
+    footer {
+        padding-bottom: 1.5%;
+    }
 
     .footerRight ul {
         padding-top: 1%;
@@ -648,6 +651,7 @@ footer {
 
      .footerBaseLeft span {
         margin: 0 auto;
+        padding: 0 5.5%;
      }
 
      .footerBaseRight {
