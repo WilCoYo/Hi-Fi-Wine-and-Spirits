@@ -218,7 +218,7 @@ lowerNav li {
     }
 
     .readMore {
-        padding-top: 0;
+        padding-top: 2rem;
         height: 75%;
     }
 
@@ -232,6 +232,7 @@ lowerNav li {
 
     .aboutUs_1 {
         padding: 1rem;
+
     }
 
     .aboutUs_1 h1 {
@@ -243,11 +244,12 @@ lowerNav li {
     }
 
     .readMore {
-        padding: 0 .5rem;
+        height: 80%;
+        padding: 2rem .5rem;
     }
 
     .readMore button {
-        margin-top: .75rem;
+        margin-top: 2rem;
     }
 }
 
@@ -632,6 +634,29 @@ footer {
     color: black;
 }
 
-@media(max-width: 420px){
-     
+@media(max-width: 670px){
+     .footerBase{
+        display: block;
+        border-top: .1rem solid black;
+
+     }
+
+     .footerBaseLeft{
+        width: 100%;
+        padding: 0;
+     }
+
+     .footerBaseLeft span {
+        margin: 0 auto;
+     }
+
+     .footerBaseRight {
+        width: 100%;
+        padding: 0;
+     }
+
+     .footerBaseRight ul {
+        padding-top: 1rem;
+        text-align: center;
+     }
 }
