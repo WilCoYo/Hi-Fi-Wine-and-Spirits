@@ -229,6 +229,11 @@ lowerNav li {
 }
 
 @media(max-width: 625px){
+
+    .aboutUs_1 {
+        padding: 1rem;
+    }
+
     .aboutUs_1 h1 {
         font-size: 2.5rem;
     }
