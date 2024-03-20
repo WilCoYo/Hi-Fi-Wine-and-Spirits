@@ -574,7 +574,7 @@ footer {
 
 @media(max-width: 420px){
     footer {
-        padding-bottom: 1.5%;
+        padding-bottom: 2%;
     }
 
     .footerRight ul {
