@@ -60,7 +60,7 @@ lowerNav li {
     
 }
 
-@media(max-width: 425px){
+@media only screen and (max-width: 475px){
 
     .find {
         display: none;
@@ -72,11 +72,12 @@ lowerNav li {
 
     upperNav ul {
         margin: 0;
-        justify-content: center;
     }
 
     lowerNav ul {
+        justify-content: center;
         margin-top: 1rem;
+        margin-right: 1%;
     }
 
     lowerNav a {
@@ -85,6 +86,8 @@ lowerNav li {
 
     lowerNav li {
         text-align: center;
+        padding: 0 1rem;
+        margin-left: 0;
     }
 
     lowerNav br {
@@ -182,7 +185,7 @@ lowerNav li {
 }
 
 
-@media(max-width: 1050px){
+@media only screen and (max-width: 1050px){
 
     .hide-on-mobile {
         display: none;
@@ -228,7 +231,7 @@ lowerNav li {
 
 }
 
-@media(max-width: 625px){
+@media only screen and (max-width: 625px){
 
     .aboutUs_1 {
         padding: 1rem;
@@ -341,7 +344,7 @@ lowerNav li {
     margin: 0 auto;
 }
 
-@media(max-width: 475px){
+@media only screen and (max-width: 475px){
     .shopSection {
         display: grid;
     }
@@ -429,7 +432,7 @@ lowerNav li {
     border-color: #F8445D;
 }
 
-@media(max-width: 1050px){
+@media only screen and (max-width: 1050px){
 
     .cocktail{
         height: 50%;
@@ -517,7 +520,7 @@ lowerNav li {
     width: 100%;
 }
 
-@media(max-width: 545px){
+@media only screen and (max-width: 545px){
     .social h1 {
         letter-spacing: .3rem;
     }
@@ -595,7 +598,7 @@ footer {
     padding-left: 2%;
 }
 
-@media(max-width: 420px){
+@media only screen and (max-width: 420px){
     footer {
         padding-bottom: 2%;
     }
@@ -660,7 +663,7 @@ footer {
     color: black;
 }
 
-@media(max-width: 670px){
+@media only screen and (max-width: 670px){
      .footerBase{
         display: block;
         border-top: .1rem solid black;
