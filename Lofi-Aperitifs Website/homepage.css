@@ -328,7 +328,7 @@ lowerNav li {
     color: #F8445D;
 }
 
-@media(max-width: 425px){
+@media(max-width: 475px){
     .shopSection {
         display: grid;
     }
