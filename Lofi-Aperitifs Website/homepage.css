@@ -252,7 +252,8 @@ lowerNav li {
 
     .aboutUs_1 h1 {
         font-size: 2.5rem;
-        margin-top: 1rem;
+        margin-top: 0;
+        margin-bottom: .5rem;
     }
 
     .aboutUs_1 span {
@@ -265,10 +266,12 @@ lowerNav li {
     }
 
     .aboutUs_1 p {
-        margin-bottom: 1.5rem;
+        margin-top: 1rem;
+        margin-bottom: 1rem;
     }
 
 }
+
 @media only screen and (max-height: 39em){
 
     .aboutUs_1 {
