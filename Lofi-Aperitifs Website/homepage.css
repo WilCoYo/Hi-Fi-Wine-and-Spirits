@@ -60,7 +60,7 @@ lowerNav li {
     
 }
 
-@media only screen and (max-width: 475px){
+@media only screen and (max-width: 30rem){
 
     .find {
         display: none;
@@ -199,7 +199,7 @@ lowerNav li {
 }
 
 
-@media only screen and (max-width: 1080px){
+@media only screen and (max-width: 67.5em){
 
     .hide-on-mobile {
         display: none;
@@ -243,7 +243,7 @@ lowerNav li {
 }
 
 
-@media only screen and (max-width: 625px){
+@media only screen and (max-width: 39em){
 
     .aboutUs_1 {
         padding: 1rem;
@@ -269,7 +269,7 @@ lowerNav li {
     }
 
 }
-@media only screen and (max-height: 645px){
+@media only screen and (max-height: 39em){
 
     .aboutUs_1 {
         height: 
@@ -380,7 +380,7 @@ lowerNav li {
     margin: 0 auto;
 }
 
-@media only screen and (max-width: 475px){
+@media only screen and (max-width: 30em){
     .shopSection {
         display: grid;
     }
@@ -398,7 +398,7 @@ lowerNav li {
 
 }
 
-@media only screen and (max-height: 645px) {
+@media only screen and (max-height: 40em) {
     .shopSection section {
         font-size: 1rem;
         padding-left: .5rem;
@@ -472,7 +472,7 @@ lowerNav li {
     border-color: #F8445D;
 }
 
-@media only screen and (max-width: 1050px){
+@media only screen and (max-width: 67.5em){
 
     .cocktail{
         height: 50%;
@@ -516,7 +516,7 @@ lowerNav li {
 
 }
 
-@media only screen and (max-height: 645px){
+@media only screen and (max-height: 40em){
     .cocktailRight h2 {
         font-size: 3rem;
         padding: 0;
@@ -571,7 +571,7 @@ lowerNav li {
     width: 100%;
 }
 
-@media only screen and (max-width: 545px){
+@media only screen and (max-width: 34em){
     .social h1 {
         letter-spacing: .3rem;
     }
@@ -649,7 +649,7 @@ footer {
     padding-left: 2%;
 }
 
-@media only screen and (max-width: 420px){
+@media only screen and (max-width: 26.25em){
     footer {
         padding-bottom: 2%;
     }
@@ -714,7 +714,7 @@ footer {
     color: black;
 }
 
-@media only screen and (max-width: 670px){
+@media only screen and (max-width: 42em){
      .footerBase{
         display: block;
         border-top: .1rem solid black;
