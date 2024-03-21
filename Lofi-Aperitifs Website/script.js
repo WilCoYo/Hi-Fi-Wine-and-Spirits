@@ -49,6 +49,10 @@ const scrollFunction = () => {
     document.getElementById("upperNav").style.display = "none";
     document.querySelector("header").style.height = '7rem';
     document.querySelector("lowerNav").style.margin = "1.5rem";
+  } else if (window.screen.width > 1080){
+    document.getElementById("upperNav").style.display = "";
+    document.querySelector("header").style.height = "16rem";
+    document.querySelector("lowerNav").style.margin = "";
   } else {
     document.getElementById("upperNav").style.display = "";
     document.querySelector("header").style.height = "14rem";

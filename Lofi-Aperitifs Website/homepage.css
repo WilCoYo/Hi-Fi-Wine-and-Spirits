@@ -60,6 +60,14 @@ lowerNav li {
     
 }
 
+@media only screen and (min-width: 67em){
+    header {
+        height: 16rem;
+    }
+    
+
+}
+
 @media only screen and (max-width: 30rem){
 
     .find {
