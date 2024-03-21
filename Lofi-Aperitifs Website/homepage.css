@@ -274,12 +274,11 @@ lowerNav li {
 
 @media only screen and (max-height: 39em){
 
-    .aboutUs_1 {
-        height: 
-    }
    
     .readMore {
         height: 100%;
+        padding-left: .5rem;
+        padding-right: .5rem;
     }
 
     .aboutUs_1 h1 {
@@ -530,6 +529,9 @@ lowerNav li {
         padding: .25rem;
         margin-top: 1rem;
     }
+
+    
+
 }
 
 
