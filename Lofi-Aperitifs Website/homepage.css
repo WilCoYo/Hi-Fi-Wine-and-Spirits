@@ -527,15 +527,21 @@ lowerNav li {
 }
 
 @media only screen and (max-height: 40em){
+
+    .cocktail {
+        height: 75%;
+    }
+    
     .cocktailRight h2 {
         font-size: 3rem;
         padding: 0;
-        margin-bottom: 0;
+        margin-top: 3rem;
+        margin-bottom: .5rem;
     }
 
     .cocktailRight button {
         padding: .25rem;
-        margin-top: 1rem;
+        margin-top: 1.5rem;
     }
 
     
