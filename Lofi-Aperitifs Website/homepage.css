@@ -277,11 +277,25 @@ lowerNav li {
 
 .productOne{
     text-align: center;
+    position: relative;
+}
+
+.productOneButton {
+    position: absolute;
+    bottom: 0;
+    width: 100%;
 }
 
 .productTwo{
     text-align: center;
     padding: 0 1.5%;
+    position: relative;
+}
+
+.productTwoButton {
+    position: absolute;
+    bottom: 0;
+    width: 90%;
 }
 
 .productThree {
@@ -289,19 +303,14 @@ lowerNav li {
     position: relative;
 }
 
-.productThree section {
-    padding-bottom: 2.5rem !important;
-}
 
-.productThreeButtonDiv {
+
+.productThreeButton {
     position: absolute;
     bottom: 0;
     width: 100%;
 }
 
-.productThreeButton {
-    margin: 0 auto;
-}
 
 
 .shopSection h2,
@@ -315,6 +324,7 @@ lowerNav li {
 
 .shopSection section {
     font-size: 1.25rem;
+    padding-bottom: 4rem;
 }
 
 .shopSection button {
@@ -326,6 +336,8 @@ lowerNav li {
     padding: 1.5% 2%;
     background-color: #CBEAF5;
     color: #F8445D;
+
+    margin: 0 auto;
 }
 
 @media(max-width: 475px){
@@ -361,8 +373,7 @@ lowerNav li {
     display: inline-flex;
     height: 100%;
     width: 100%;
-    padding-top: 5%;
-    
+    padding-top: 2rem;
 }
 
 .cocktailLeft {
