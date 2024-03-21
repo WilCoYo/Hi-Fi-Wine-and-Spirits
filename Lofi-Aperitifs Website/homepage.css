@@ -108,6 +108,10 @@ lowerNav li {
 
 
 
+
+
+
+
 /***********vv Main Hero Banner vv**********/
 
 .hero_banner img{
@@ -117,6 +121,10 @@ lowerNav li {
 }
 
 /***********^^ Main Hero Banner ^^**********/
+
+
+
+
 
 
 
@@ -254,7 +262,6 @@ lowerNav li {
     .readMore {
       margin: 0;
       padding: 0;  
-      width: 100%;
     }
 
     .aboutUs_1 p {
