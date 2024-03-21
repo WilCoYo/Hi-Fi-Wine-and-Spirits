@@ -286,24 +286,25 @@ lowerNav li {
     width: 100%;
 }
 
+
+
 .productTwo{
     text-align: center;
-    padding: 0 1.5%;
     position: relative;
 }
 
 .productTwoButton {
     position: absolute;
     bottom: 0;
-    width: 90%;
+    width: 100%;
 }
+
+
 
 .productThree {
     text-align: center;
     position: relative;
 }
-
-
 
 .productThreeButton {
     position: absolute;
