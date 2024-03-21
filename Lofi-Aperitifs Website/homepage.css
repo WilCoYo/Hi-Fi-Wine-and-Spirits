@@ -276,21 +276,29 @@ lowerNav li {
 
    
     .readMore {
-        height: 100%;
+        height: 100%;   
         padding-left: .5rem;
         padding-right: .5rem;
     }
 
+    .aboutUsSection {
+        height: 80%;
+    }
+
     .aboutUs_1 h1 {
+        padding-top: 3rem;
+        padding-bottom: 1.5rem;
         margin: 0;
     }
 
     .aboutUs_1 p {
+        padding-top: 1rem;
         margin: 0;
         margin-bottom: .4rem;
     }
 
     .readMoreBtn {
+        margin-top: 1rem;
         margin-bottom: 0;
     }
 
