@@ -106,10 +106,7 @@ lowerNav li {
         display: "";
     }
 
-    .hero_banner {
-        display: none;
-    }
-
+   
     
 }
 
@@ -127,6 +124,16 @@ lowerNav li {
     margin-top: 14rem;
     margin-bottom: -1%;
 }
+
+@media only screen and (max-width: 30rem){
+
+    .hero_banner {
+        display: none;
+    }
+
+}
+
+
 
 /***********^^ Main Hero Banner ^^**********/
 
@@ -243,6 +250,7 @@ lowerNav li {
 
 @media only screen and (max-width: 30em){
     .shopSection {
+        padding-top: 14rem;
         display: grid;
     }
 
