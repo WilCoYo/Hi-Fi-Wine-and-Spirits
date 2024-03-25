@@ -168,14 +168,14 @@ lowerNav li {
 
 /********** ROW 1 ****************/
 
-.row1 {
+.headers {
     grid-column-start: span 3;
     display: flex;
     justify-content: center;
     font-family: "Big Shoulders Inline Text", sans-serif;
     font-size: 1.5rem;
     letter-spacing: .5rem;
-    padding: 0 0 2rem 0;
+    padding: 2rem 0;
 }
 
 
@@ -244,17 +244,7 @@ lowerNav li {
 }
 
 /********** ROW 4 ****************/
-
-.row4 {
-    grid-column-start: span 3;
-    display: flex;
-    justify-content: center;
-    font-family: "Big Shoulders Inline Text", sans-serif;
-    font-size: 1.5rem;
-    letter-spacing: .5rem;
-    padding: 2% 0;
-}
-
+     /***Same as Row 1***/
 
 
 /********** ROW 5 ****************/
@@ -288,18 +278,7 @@ lowerNav li {
 
     
 /********** ROW 7 ****************/
-
-.row7 {
-    grid-column-start: span 3;
-    display: flex;
-    justify-content: center;
-    font-family: "Big Shoulders Inline Text", sans-serif;
-    font-size: 1.5rem;
-    letter-spacing: .5rem;
-    margin-top: 2%;
-    padding: 2% 0;
-}
-
+    /***Same as Row 1, 4***/
 
 /********** ROW 8 ****************/
 
@@ -334,18 +313,7 @@ lowerNav li {
 
 
 /********** ROW 10 ****************/
-
-
-.row10 {
-    grid-column-start: span 3;
-    display: flex;
-    justify-content: center;
-    font-family: "Big Shoulders Inline Text", sans-serif;
-    font-size: 1.5rem;
-    letter-spacing: .5rem;
-    margin-top: 2%;
-    padding: 2% 0;
-}
+    /***Same as Row 1,4,7***/
 
 
 
@@ -383,18 +351,7 @@ lowerNav li {
 
 
 /********** ROW 13 ****************/
-
-.row13 {
-    grid-column-start: span 3;
-    display: flex;
-    justify-content: center;
-    font-family: "Big Shoulders Inline Text", sans-serif;
-    font-size: 1.5rem;
-    letter-spacing: .5rem;
-    margin-top: 2%;
-    padding: 2% 0;
-}
-
+    /***Same as Row 1,4,7,10***/
 
 
 
@@ -425,17 +382,7 @@ lowerNav li {
 
 
 /********** ROW 16 ****************/
-.row16 {
-    grid-column-start: span 3;
-    display: flex;
-    justify-content: center;
-    font-family: "Big Shoulders Inline Text", sans-serif;
-    font-size: 1.5rem;
-    letter-spacing: .5rem;
-    margin-top: 2%;
-    padding: 2% 0;
-}
-
+  /***Same as Row 1,4,7,10,13***/
 
 
 
