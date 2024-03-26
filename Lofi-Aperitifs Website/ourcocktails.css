@@ -197,7 +197,7 @@ lowerNav li {
     font-family: "Big Shoulders Inline Text", sans-serif;
     font-size: 1.5rem;
     letter-spacing: .5rem;
-    padding: 2rem 0 3rem 0;
+    padding: 2rem 0;
 }
 
 
@@ -238,7 +238,7 @@ lowerNav li {
     padding: 1.5% 5%;
     background-color: #CBEAF5;
     color: #F8445D;
-    margin: 4% auto;
+    margin: 4% auto 8% auto;
 }
 
 
