@@ -148,7 +148,7 @@ lowerNav li {
 @media only screen and (max-width: 30rem){
 
     .hero_banner {
-       /* display: "none";*/
+       display: none;
     }
 
 }
@@ -167,14 +167,28 @@ lowerNav li {
 
     .grid_container {
       display: grid;
-      grid-template-columns: 1fr;
+      grid-template-columns: repeat(1, 1fr);
       padding: 1em;
+      justify-items: center;
     }
+
+    .headers {
+        grid-column-start: unset !important;
+        text-align: center;
+    }
+
+    .mobile_captions {
+        display: unset!important;
+    }
+
+    .caption {
+        display: none!important;
+    }
+
   }
 
 
-
-/********** ROW 1 ****************/
+/********** Headers ****************/
 
 .headers {
     grid-column-start: span 3;
@@ -187,30 +201,7 @@ lowerNav li {
 }
 
 
-
-/********** ROW 2 ****************/
-
-.manhattan {
-    grid-column-start: 1;
-    grid-column-end: 2;
-    grid-row-start: 2;
-    grid-row-end: 3;
-}
-
-.martini {
-    grid-column-start: 2;
-    grid-column-end: 3;
-    grid-row-start: 2;
-    grid-row-end: 3;
-}
-
-.amaro-pink {
-    grid-column-start: 3;
-    grid-column-end: 4;
-    grid-row-start: 2;
-    grid-row-end: 3;
-    object-fit: cover;
-}
+/********** Images ****************/
 
 .cocktailImages {
     width: 100%;
@@ -218,8 +209,38 @@ lowerNav li {
 }
 
 
+/********** Mobile Captions ****************/
 
-/********** ROW 3 ****************/
+.mobile_captions {
+    display: block;
+    margin: 0 auto;
+    color: #F8445D;
+    font-family: "Montserrat", sans-serif;
+    padding-top: 2%;
+    text-align: center;
+}
+
+.mobile_captions h2 {
+    font-size: 1.25rem;
+    padding-bottom: 2%;
+}
+
+.mobile_captions span {
+    font-size: 1.25rem;
+}
+
+.mobile_captions button {
+    cursor: pointer;
+    text-decoration: none;
+    border: none;
+    font-weight: bold;
+    font-size: 1.4rem;
+    padding: 1.5% 5%;
+    background-color: #CBEAF5;
+    color: #F8445D;
+    margin: 4% auto;
+}
+
 
 .caption {
     display: block;
@@ -250,166 +271,6 @@ lowerNav li {
     color: #F8445D;
     margin: 4% auto;
 }
-
-/********** ROW 4 ****************/
-     /***Same as Row 1***/
-
-
-/********** ROW 5 ****************/
-
-.highpoint {
-    grid-column-start: 1;
-    grid-column-end: 2;
-    grid-row-start: 5;
-    grid-row-end: 6;
-}
-
-.vt {
-    grid-column-start: 2;
-    grid-column-end: 3;
-    grid-row-start: 5;
-    grid-row-end: 6;
-}
-
-.pinkhighball {
-    grid-column-start: 3;
-    grid-column-end: 4;
-    grid-row-start: 5;
-    grid-row-end: 6;
-}
-
-
-/********** ROW 6 ****************/
-       /*Same as Row 3*/
-
-
-
-    
-/********** ROW 7 ****************/
-    /***Same as Row 1, 4***/
-
-/********** ROW 8 ****************/
-
-.lotus {
-    grid-column-start: 1;
-    grid-column-end: 2;
-    grid-row-start: 8;
-    grid-row-end: 9;
-}
-
-
-.pinkbeer {
-    grid-column-start: 2;
-    grid-column-end: 3;
-    grid-row-start: 8;
-    grid-row-end: 9;
-}
-
-.beesmoker {
-    grid-column-start: 3;
-    grid-column-end: 4;
-    grid-row-start: 8;
-    grid-row-end: 9;
-}
-
-
-
-/********** ROW 9 ****************/
-    /*Same as Row 3 & 6*/
-
-
-
-
-/********** ROW 10 ****************/
-    /***Same as Row 1,4,7***/
-
-
-
-/********** ROW 11 ****************/
-
-.whiteElephant {
-    grid-column-start: 1;
-    grid-column-end: 2;
-    grid-row-start: 11;
-    grid-row-end: 12;
-}
-
-
-.extradry {
-    grid-column-start: 2;
-    grid-column-end: 3;
-    grid-row-start: 11;
-    grid-row-end: 12;
-}
-
-.saturnreturns {
-    grid-column-start: 3;
-    grid-column-end: 4;
-    grid-row-start: 11;
-    grid-row-end: 12;
-}
-
-
-
-/********** ROW 12 ****************/
-   /***Same as Row 3, 6, 9***/
-
-
-
-
-
-/********** ROW 13 ****************/
-    /***Same as Row 1,4,7,10***/
-
-
-
-/********** ROW 14 ****************/
-
-
-.americano {
-    grid-column-start: 1;
-    grid-column-end: 2;
-    grid-row-start: 14;
-    grid-row-end: 15;
-}
-
-
-.lofispritz {
-    grid-column-start: 2;
-    grid-column-end: 3;
-    grid-row-start: 14;
-    grid-row-end: 15;
-}
-
-
-
-/********** ROW 15 ****************/
-  /***Same as Row 3, 6, 9,12***/
-
-
-
-
-/********** ROW 16 ****************/
-  /***Same as Row 1,4,7,10,13***/
-
-
-
-/********** ROW 17 ****************/
-.pinkpaloma {
-    grid-column-start: 1;
-    grid-column-end: 2;
-    grid-row-start: 17;
-    grid-row-end: 18;
-}
-
-
-
-
-
-
-
-
-
 
 
 
