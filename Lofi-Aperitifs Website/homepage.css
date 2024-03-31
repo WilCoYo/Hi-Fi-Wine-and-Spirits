@@ -9,7 +9,6 @@ body {
 
 /********vv Header Section vv**********/
 header{
-    height: 14rem;
     position: fixed;
     top: 0;
     z-index: 100;
