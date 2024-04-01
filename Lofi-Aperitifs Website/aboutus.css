@@ -202,7 +202,12 @@ lowerNav li {
     padding: 2rem 0;
 }
 
-
+@media only screen and (max-width: 47.5rem) {
+    .aboutus-section{
+        width: 90%;
+    }
+    
+}
 
 
 
