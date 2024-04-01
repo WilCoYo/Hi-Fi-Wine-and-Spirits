@@ -1,0 +1,173 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    height: 100vh;
+}
+
+/********vv Header Section vv**********/
+header{
+    height: 14rem;
+    position: fixed;
+    top: 0;
+    z-index: 100;
+    width: 100%;
+    background-color: white;
+    box-shadow: 0px 14px 20px -20px rgba(192, 61, 61, 0.45);
+    transition: 0.2s;
+}
+
+
+upperNav ul {
+    display: flex;
+    justify-content: space-between;
+    list-style: none;
+    margin: 2%;
+}
+
+upperNav span {
+    color: #F8445D;
+}
+
+.find,
+.search {
+    padding-top: .5%;
+}
+
+
+upperNav li,
+upperNav a,
+lowerNav li,
+lowerNav a {
+    text-decoration: none;
+    color: black;
+    font-family: "Montserrat", sans-serif;
+}
+
+lowerNav ul {
+    display: flex;
+    justify-content: center;
+    list-style: none;
+    margin: 1% auto;
+}
+
+lowerNav li {
+    padding: 0 2rem;
+    margin-left: 1%;
+    font-size: 1.25rem;
+    
+}
+
+@media only screen and (min-width: 67em){
+    header {
+        height: 16rem;
+    }
+    
+
+}
+
+@media only screen and (max-width: 30rem){
+
+    .find {
+        display: none;
+    }
+
+    .search {
+        display: none;
+    }
+
+    #navLogo {
+        margin: 0 auto;
+    }
+
+    upperNav ul {
+        margin: 0;
+    }
+
+    lowerNav ul {
+        justify-content: center;
+        margin-top: 1rem;
+        margin-right: 1%;
+    }
+
+    lowerNav a {
+        font-size: 1rem;
+    }
+
+    lowerNav li {
+        text-align: center;
+        padding: 0 2rem 0 1rem;
+        margin-left: 0;
+    }
+
+    lowerNav br {
+        display: "";
+    }
+
+   
+    
+}
+
+
+/***********^^ Header Section ^^************/
+
+
+
+
+/***********vv Main Hero Banner vv**********/
+
+.hero_banner {
+    position: relative;
+    display: inline-block;
+    margin-top: 14rem;
+}
+
+.hero_banner img {
+    width: 100%;
+
+}
+
+
+.hero_banner h1 {
+    font-size: 5rem;
+    color: white;
+    text-shadow: #F8445D 1px 0 4px;
+    font-family: "Big Shoulders Inline Text", sans-serif;
+    letter-spacing: 1rem;
+    position: absolute;
+    top: 40%;
+    left: 40%;
+}
+
+@media only screen and (max-width: 27.8rem){
+    .hero_banner h1 {
+        display: none;
+    }
+}
+
+
+@media only screen and (max-width: 47.5rem){
+
+    .hero_banner img {
+       display: none;
+    }
+
+    .hero_banner {
+        display: flex;
+        justify-content: center;
+        align-content: center;
+    }
+
+    .hero_banner h1 {
+        position: relative;
+        top: unset;
+        left: unset;
+        padding-top: 1rem;
+    }
+}
+
+
+
+/***********^^ Main Hero Banner ^^**********/
