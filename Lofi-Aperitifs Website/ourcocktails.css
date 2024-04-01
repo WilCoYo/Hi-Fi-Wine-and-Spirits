@@ -121,7 +121,6 @@ lowerNav li {
 .hero_banner {
     position: relative;
     display: inline-block;
-    margin-top: 14rem;
 }
 
 .hero_banner img {
@@ -137,8 +136,8 @@ lowerNav li {
     font-family: "Big Shoulders Inline Text", sans-serif;
     letter-spacing: 1rem;
     position: absolute;
-    top: 40%;
-    left: 21%;
+    top: 45%;
+    left: 32%;
 }
 
 @media only screen and (max-width: 27.8rem){

@@ -154,6 +154,10 @@ lowerNav li {
        display: none;
     }
 
+    .hero_banner h1 {
+        color: #F8445D;
+    }
+
     .hero_banner {
         display: flex;
         justify-content: center;
@@ -218,6 +222,14 @@ lowerNav li {
     width: 75%;
 }
 
+.vermouth-image a {
+    text-decoration: none;
+    color: black;
+}
+
+.vermouth-image a:hover {
+    text-decoration: underline;
+}
 
 
 
