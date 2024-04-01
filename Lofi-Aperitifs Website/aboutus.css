@@ -168,6 +168,222 @@ lowerNav li {
     }
 }
 
-
-
 /***********^^ Main Hero Banner ^^**********/
+
+
+.aboutus-section {
+    width: 70%;
+    font-size: 2rem;
+    font-family: "Big Shoulders Inline Text", sans-serif;
+    letter-spacing: .5rem;
+    display: block;
+    text-align: center;
+    padding: 2rem 0;
+    margin: 0 auto;
+    
+}
+
+.aboutus-section h2 {
+    padding-bottom: 1rem;
+}
+
+.aboutus-section span {
+    font-size: 1.75rem !important;
+}
+
+.aboutus-section p {
+    font-size: 1.25rem !important;
+    font-family: "Montserrat", sans-serif !important; 
+    letter-spacing: 0 !important;
+    padding: 2rem 0;
+}
+
+
+
+
+
+.vermouth-bottles {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    gap: 1rem;
+}
+
+.vermouth-image {
+    text-align: center;
+    font-family: "Big Shoulders Inline Text", sans-serif;
+    letter-spacing: .25rem;
+}
+
+.vermouth-image img {
+    width: 75%;
+}
+
+
+
+
+
+/***********vv Footer Section vv**********/
+
+footer {
+    display: flex;
+    background-color: #CDEAF5;
+    margin-top: 4%;
+    box-shadow: 0px -14px 20px -20px rgba(192, 61, 61, 0.45);
+}
+
+
+
+.footerLeft {
+    width: 50%;
+    padding-left: 5%;
+}
+
+.footerLeft ul {
+    list-style: none;
+    padding-top: 5%;
+}
+
+.footerLeft li {
+    padding-bottom: 3%;
+    font-size: 1.25rem;
+    font-family: "Montserrat", sans-serif;
+}
+
+.footerLeft a {
+    cursor: pointer;
+    text-decoration: none;
+    color: rgb(43, 41, 41);
+}
+
+
+
+.footerRight {
+    width: 50%;
+    padding-right: 5%;
+}
+
+.footerRight ul {
+    list-style: none;
+    text-align: right;
+    padding-top: 5%;
+}
+
+.footerRight li {
+    padding-bottom: 3%;
+    font-size: 1.25rem;
+    font-family: "Montserrat", sans-serif;
+}
+
+.footerRight a {
+    cursor: pointer;
+    text-decoration: none;
+    color: #F8445D;
+    padding: 1%;
+    margin-left: 3%;
+    font-size: 2rem;
+    border: solid #F8445D;
+    border-width: .1rem;
+    border-radius: 50%;
+    height: 2rem;
+    width: 2rem;    
+    text-align: center;
+}
+
+#socialLinks {
+    padding-top: 5%;
+    padding-left: 2%;
+}
+
+@media only screen and (max-width: 26.25em){
+    footer {
+        padding-bottom: 2%;
+    }
+
+    .footerRight ul {
+        padding-top: 1%;
+    }
+
+    .footerRight li {
+        padding-top: 8%;
+    }
+
+    .footerLeft li {
+        font-size: 1rem;
+        padding-top: 3%;
+    }
+}
+
+
+
+.footerBase {
+    display: flex;
+    padding-top: 1%;
+    padding-bottom: 1%;
+    background-color: #CDEAF5;
+}
+
+
+.footerBaseLeft{
+    width: 50%;
+    padding-left: 5%;
+    display: flex;
+}
+
+.footerBaseLeft span {
+    align-self: flex-end;
+    text-decoration: underline;
+}
+
+
+.footerBaseRight {
+    width: 50%;
+    padding-right: 5%;
+    display: inline;
+    justify-content: end;
+}
+
+.footerBaseRight ul {
+    text-align: right;
+    list-style: none;
+}
+
+.footerBaseRight li {
+    display: inline;
+    padding-left: 2%;
+    font-size: .9rem;
+    font-family: "Montserrat", sans-serif;
+}
+
+.footerBaseRight a {
+    cursor: pointer;
+    text-decoration: none;
+    color: black;
+}
+
+@media only screen and (max-width: 42em){
+     .footerBase{
+        display: block;
+        border-top: .1rem solid black;
+
+     }
+
+     .footerBaseLeft{
+        width: 100%;
+        padding: 0;
+     }
+
+     .footerBaseLeft span {
+        margin: 0 auto;
+        padding: 0 5.5%;
+     }
+
+     .footerBaseRight {
+        width: 100%;
+        padding: 0;
+     }
+
+     .footerBaseRight ul {
+        padding-top: 1rem;
+        text-align: center;
+     }
+}
