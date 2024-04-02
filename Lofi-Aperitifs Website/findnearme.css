@@ -110,8 +110,9 @@ lowerNav li {
     
 }
 
-
 /***********^^ Header Section ^^************/
+
+
 
 
 .find-header {
@@ -132,29 +133,7 @@ lowerNav li {
 }
 
 
-.inputforms {
-    display: block; 
-    margin-top: 5rem;
-    text-align: center;
+#map {
+    height: 25rem;
+    width: 50%;
 }
-
-.zipcodeinput {
-    font-family: "Montserrat", sans-serif;
-    font-size: 1rem;
-    font-weight: bold;
-    width: 15rem;
-    padding: 1rem;
-}
-
-.dist {
-    padding: 2rem;
-}
-
-#dist {
-    font-family: "Montserrat", sans-serif;
-    font-size: 1rem;
-    font-weight: bold;
-    width: 17rem;
-    padding: 1rem;
-}
-

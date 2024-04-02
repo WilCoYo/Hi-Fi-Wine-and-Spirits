@@ -42,7 +42,9 @@ const underageChecker = () => {
 };
 
 
-window.onscroll = function() {scrollFunction()};
+window.onscroll = function() {
+  scrollFunction()
+};
 
 const scrollFunction = () => {
   if (document.body.scrollTop > 50 || document.documentElement.scrollTop > 50) {
@@ -60,3 +62,32 @@ const scrollFunction = () => {
   }
 
 }
+
+let autocomplete;
+
+function initAutocomplete() {
+  autocomplete = new google.maps.places.Autocomplete(
+    document.getElementById('autocomplete'),
+    {
+      types: ['address'],
+      componentRestrictions: {'country': ['US']},
+      fields: ['place_id', 'geometry', 'name']
+    });
+
+  autocomplete.addListener('place_changed', onPlaceChanged);
+}
+
+function onPlaceChanged(){
+  const place = autocomplete.getPlace();
+
+  if(!place.geometry){
+    document.getElementById('autocomplete').placeholder = 'Enter an address';
+  } else {
+    document.getElementById('details').innerHTML = place.name;
+  }
+}
+
+
+
+
+
