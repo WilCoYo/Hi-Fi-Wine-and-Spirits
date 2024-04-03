@@ -8,15 +8,13 @@
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link href="https://fonts.googleapis.com/css2?family=Big+Shoulders+Inline+Text:wght@100..900&family=Montserrat:ital,wght@0,100..900;1,100..900&display=swap" rel="stylesheet">
-    <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:opsz,wght,FILL,GRAD@24,400,0,0" />
-    <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:opsz,wght,FILL,GRAD@24,400,0,0" />
-    <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:opsz,wght,FILL,GRAD@24,400,0,0" />
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:opsz,wght,FILL,GRAD@20..48,100..700,0..1,-50..200" />
     <script async defer src="https://maps.googleapis.com/maps/api/js?key=AIzaSyBjOVAhPXjyGRkQP481wH2L4ORaIcnl4jA&loading=async&libraries=places&callback=initAutocomplete">
     </script>
     <script async defer src="https://maps.googleapis.com/maps/api/js?key=AIzaSyBjOVAhPXjyGRkQP481wH2L4ORaIcnl4jA&loading=async&libraries=places&callback=initMap">
     </script>
-    <script async defer src="https://maps.googleapis.com/maps/api/geocode/json?place_id=ChIJd8BlQ2BZwokRAFUEcm_qrcA&key=AIzaSyDzwkmwAklKLTRYV3g6acBXNeyG7JGOyag">  
+    <script async defer src="https://maps.googleapis.com/maps/api/js?key=AIzaSyBjOVAhPXjyGRkQP481wH2L4ORaIcnl4jA&loading=async&libraries=places">
     </script>
     <title>Find | Lo-Fi Aperitifs</title>
 </head>
@@ -25,9 +23,9 @@
     <header>
         <upperNav class= "upperNav" id="upperNav">
             <ul>
-                <li class="find" id="find"><a href="#"><span class="material-symbols-outlined" style="font-size:3rem">location_on</span></a></li>
+                <li class="find" id="find"></li>
                 <li id="navLogo"><a href="../Lofi-Aperitifs Website/homepage.html"><img src="../Resources/Images/Lofi Logo.svg"/></a></li>
-                <li class="search" id="search"><a href="#"><span class="material-symbols-outlined" style="font-size:3rem"></span></a></li>
+                <li class="search" id="search"></li>
             </ul>
         </upperNav>
         <lowerNav>
@@ -49,9 +47,10 @@
         </p>
     </div>
     
-    <input id="autocomplete" placeholder="Enter address here" type="text"/>
+    <!-- <input id="autocomplete" placeholder="Enter address here" type="text"/> -->
 
     <h2>Search Results:</h2>
+
     <div id="map">
 
     </div>
