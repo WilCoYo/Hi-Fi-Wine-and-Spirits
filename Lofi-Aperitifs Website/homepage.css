@@ -30,12 +30,6 @@ upperNav span {
     color: #F8445D;
 }
 
-.find,
-.search {
-    padding-top: .5%;
-}
-
-
 upperNav li,
 upperNav a,
 lowerNav li,
@@ -54,7 +48,6 @@ lowerNav ul {
 
 lowerNav li {
     padding: 0 2rem;
-    margin-left: 1%;
     font-size: 1.25rem;
     
 }
@@ -69,14 +62,7 @@ lowerNav li {
 
 @media only screen and (max-width: 30rem){
 
-    .find {
-        display: none;
-    }
-
-    .search {
-        display: none;
-    }
-
+ 
     #navLogo {
         margin: 0 auto;
     }
