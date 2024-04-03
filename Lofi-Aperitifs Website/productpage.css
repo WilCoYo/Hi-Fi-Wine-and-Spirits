@@ -3,10 +3,12 @@
     padding: 0;
 }
 
+body {
+    height: 100vh;
+}
 
 /********vv Header Section vv**********/
 header{
-    height: 14rem;
     position: fixed;
     top: 0;
     z-index: 100;
@@ -27,7 +29,6 @@ upperNav ul {
 upperNav span {
     color: #F8445D;
 }
-
 
 upperNav li,
 upperNav a,
@@ -61,6 +62,7 @@ lowerNav li {
 
 @media only screen and (max-width: 30rem){
 
+ 
     #navLogo {
         margin: 0 auto;
     }
@@ -89,55 +91,97 @@ lowerNav li {
         display: "";
     }
 
-   
     
 }
+
 
 /***********^^ Header Section ^^************/
 
 
 
 
-.find-header {
-    margin-top: 18rem;
-    display: block;
-    text-align: center;
-    padding-top: 5rem;
+.grid_container {
+    display: grid;
+    gap: 1rem;
+    grid-template-columns: 10rem 1fr 1fr;
 }
 
-.find-header h2 {
-    font-size: 3.5rem;
-    margin-bottom: 2rem;
+.gentian-image {
+    margin-top: 14rem;
+    padding-top: 8rem;
+    justify-self: center;
+    align-self: center;
+}
+
+#product-image img {
+    width: 150%;
+}
+
+
+#product-info {
+    margin-top: 14rem;
+    padding-top: 8rem;
+    justify-self: start;
+    
+}
+
+#product-info h2 {
+    font-size: 3rem;
     font-family: "Big Shoulders Inline Text", sans-serif;
+    padding-bottom: .5rem;
 }
 
-.find-header p {
-    font-size: 1.25rem;
-    font-family: "Montserrat", sans-serif;
-}
-
-
-.barrel-room-section {
-    display: block;
-    border: solid .1rem black;
-    font-size: 1.25rem;
-    font-family: "Montserrat", sans-serif;
-    width: 25%;
-    margin: 2rem auto 5rem auto;
-    padding: 1rem;
-}
-
-.barrel-room-link a {
-    text-decoration: none;
-    color: black;
+#product-info section {
+    font-size: 1.5rem;
     font-weight: bold;
-    font-size: 1.35rem;
+    font-family: "Montserrat", sans-serif;
 }
 
-.barrel-room-link a:hover {
-    text-decoration: underline;
+#product-info button {
+    font-size: 1.75rem;
+    padding: .5rem 1rem;
+    margin-bottom: 1rem;
     color: #F8445D;
-} 
+    background-color: #F6DCE2;
+    border: none;
+}
+
+#product-info button:hover {
+    cursor: pointer;
+    color: #F6DCE2;
+    background-color: #F8445D; 
+    font-weight: bold;
+}
+
+#product-info p {
+    font-size: 1.25rem;
+    font-family: "Montserrat", sans-serif;
+    padding: 1rem 0;
+    line-height: 1.75rem;
+    border-top: solid .1rem grey;
+}
+
+.dryvermouth-image {
+    justify-self: center;
+    padding-top: 11rem;
+}
+
+.dryvermouth-info {
+    margin-top: 5rem !important;
+}
+
+.sweetvermouth-info {
+    margin-top: 5rem !important;
+}
+
+.sweetvermouth-image{
+    padding-top: 13rem;
+    justify-self: center;
+    align-self: center;
+}
+
+
+
 
 
 footer {

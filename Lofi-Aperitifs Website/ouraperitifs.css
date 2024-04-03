@@ -201,6 +201,10 @@ lowerNav li {
     width: 100%;
 }
 
+#btn {
+    text-decoration: none;
+    color: #F8445D;
+}
 
 
 

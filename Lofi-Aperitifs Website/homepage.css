@@ -5,7 +5,9 @@
 
 body {
     height: 100vh;
+
 }
+
 
 /********vv Header Section vv**********/
 header{
@@ -182,6 +184,11 @@ lowerNav li {
     margin-bottom: 2rem;
 }
 
+.readMoreBtn a {
+    text-decoration: none;
+    color:#FF8D90;
+}
+
 .aboutUs_2 {
     overflow: hidden;
     width: 50%;
@@ -328,6 +335,11 @@ lowerNav li {
     width: 100%;
 }
 
+.productOneButton a {
+    text-decoration: none;
+    color: #F8445D;
+}
+
 
 
 .productTwo{
@@ -341,6 +353,10 @@ lowerNav li {
     width: 100%;
 }
 
+.productTwoButton a {
+    text-decoration: none;
+    color: #F8445D;
+}
 
 
 .productThree {
@@ -353,6 +369,12 @@ lowerNav li {
     bottom: 0;
     width: 100%;
 }
+
+.productThreeButton a {
+    text-decoration: none;
+    color: #F8445D;
+}
+
 
 
 
@@ -473,6 +495,14 @@ lowerNav li {
     border: solid;
     border-width: .15rem;
     border-color: #F8445D;
+}
+
+
+
+
+.cocktailRightContent a {
+    text-decoration: none;
+    color: #F8445D;
 }
 
 @media only screen and (max-width: 67.5em){
