@@ -65,6 +65,39 @@ const scrollFunction = () => {
 
 
 
+const manhattanRecipe = () => {
+  if(document.getElementById('manhattan_recipe').style.display === "none"){
+    document.getElementById('manhattan_recipe').style.display = '';
+    document.getElementById('manhattan_caption').style.display = 'none';
+
+  } else {
+    document.getElementById('manhattan_recipe').style.display = 'none';
+    document.getElementById('manhattan_caption').style.display = '';
+  }
+
+}
+
+
+
+const manhattanRecipeMobile = () => {
+  if(document.getElementById("mobile-manhattan-recipe").style.display === "none"){
+    document.getElementById("mobile-manhattan-recipe").style.display = '';
+    // document.getElementById("manhattan-image").style.display = 'none';
+    document.getElementById('manhattan-Recipe-Button').innerHTML = "HIDE RECIPE"
+  } else {
+    document.getElementById("mobile-manhattan-recipe").style.display = 'none';
+    // document.getElementById("manhattan-image").style.display = '';
+    document.getElementById('manhattan-Recipe-Button').innerHTML = "SHOW RECIPE"
+  }
+ 
+}
+
+
+
+
+
+
+
 
 
 

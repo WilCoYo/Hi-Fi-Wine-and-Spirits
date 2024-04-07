@@ -104,18 +104,18 @@ lowerNav li {
 
 /***********vv Main Hero Banner vv**********/
 
-.hero_banner {
+.hero-banner {
     position: relative;
     display: inline-block;
 }
 
-.hero_banner img {
+.hero-banner img {
     width: 100%;
 
 }
 
 
-.hero_banner h1 {
+.hero-banner h1 {
     font-size: 5rem;
     color: #F8445D;
     background-color: rgba(255, 255, 255, 0.3);
@@ -128,7 +128,7 @@ lowerNav li {
 }
 
 @media only screen and (max-width: 27.8rem){
-    .hero_banner h1 {
+    .hero-banner h1 {
         display: none;
     }
 }
@@ -136,17 +136,17 @@ lowerNav li {
 
 @media only screen and (max-width: 47.5rem){
 
-    .hero_banner img {
+    .hero-banner img {
        display: none;
     }
 
-    .hero_banner {
+    .hero-banner {
         display: flex;
         justify-content: center;
         align-content: center;
     }
 
-    .hero_banner h1 {
+    .hero-banner h1 {
         position: relative;
         top: unset;
         left: unset;
@@ -159,7 +159,7 @@ lowerNav li {
 /***********^^ Main Hero Banner ^^**********/
 
 
-.grid_container {
+.grid-container {
     display: grid;
     gap: 1rem;
     grid-template-columns: repeat(3, 1fr);
@@ -170,7 +170,7 @@ lowerNav li {
 @media only screen and (max-width: 47.5em) {
 
 
-    .grid_container {
+    .grid-container {
       display: grid;
       grid-template-columns: repeat(1, 1fr);
       padding: 1em;
@@ -182,13 +182,30 @@ lowerNav li {
         text-align: center;
     }
 
-    .mobile_captions {
+    .mobile-captions {
         display: unset!important;
     }
 
     .caption {
         display: none!important;
     }
+
+    .recipe-instructions {
+        display: none!important;
+    }
+
+
+    .mobile-recipe-instructions {
+        color: #F8445D;
+        font-family: "Montserrat", sans-serif;
+        margin-bottom: 2rem;
+    }
+
+    .mobile-recipe-instructions ul {
+        margin-left: 1.15rem;
+    }
+
+
 
   }
 
@@ -216,7 +233,7 @@ lowerNav li {
 
 /********** Mobile Captions ****************/
 
-.mobile_captions {
+.mobile-captions {
     display: block;
     margin: 0 auto;
     color: #F8445D;
@@ -225,16 +242,16 @@ lowerNav li {
     text-align: center;
 }
 
-.mobile_captions h2 {
+.mobile-captions h2 {
     font-size: 1.25rem;
     padding-bottom: 2%;
 }
 
-.mobile_captions span {
+.mobile-captions span {
     font-size: 1.25rem;
 }
 
-.mobile_captions button {
+.mobile-captions button {
     cursor: pointer;
     text-decoration: none;
     border: none;
@@ -276,6 +293,46 @@ lowerNav li {
     color: #F8445D;
     margin: 4% auto;
 }
+
+
+/* Recipe Section */
+
+
+
+.recipe-instructions {
+    color: #F8445D;
+    font-family: "Montserrat", sans-serif;
+    margin-left: .5rem;
+}
+
+
+.recipe-instructions ul {
+    list-style: square;
+    margin-left: 1.5rem;
+}
+
+.recipe-instructions button {
+    cursor: pointer;
+    text-decoration: none;
+    border: none;
+    font-weight: bold;
+    font-size: 1.4rem;
+    padding: 1.5% 5%;
+    background-color: #CBEAF5;
+    color: #F8445D;
+    margin: 4% auto;
+}
+
+
+
+
+
+
+
+
+
+
+
 
 
 

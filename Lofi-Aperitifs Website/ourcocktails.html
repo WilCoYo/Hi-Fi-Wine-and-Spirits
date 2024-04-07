@@ -33,12 +33,12 @@
         </lowerNav>
     </header>
 
-    <div class="hero_banner">
+    <div class="hero-banner">
         <img src="../Resources/Images/hero_banner_1.jpg" alt="">
         <h1>OUR COCKTAILS</h1>
     </div>
 
-    <div class="grid_container">
+    <div class="grid-container">
 
         <!-------Row 1--------->
         <div class="headers">
@@ -49,21 +49,36 @@
 
         <!-------Row 2--------->
         <div class="manhattan">
-            <img class="cocktailImages" src="../Resources/Images/manhattan.jpg">
+            <img class="cocktailImages" id="manhattan-image" src="../Resources/Images/manhattan.jpg">
         </div>
-            <!---------------------Hiddden Mobile Caption-------------------------------->
-                <div class="mobile_captions" style="display:none">
+            <!---------------------Hiddden Mobile Caption & Recipe-------------------------------->
+                <div class="mobile-captions" id="manhattan-mobile-caption" style="display:none">
                     <h2>MANHATTAN</h2>
                     <span>Lo-Fi Sweet Vermouth</span>
-                    <button>RECIPE</button>
+                    <button id='manhattan-Recipe-Button' onclick="manhattanRecipeMobile();">SHOW RECIPE</button>
                 </div>
-            <!---------------------Hiddden Mobile Caption-------------------------------->
+
+                <div class="mobile-recipe-instructions" id="mobile-manhattan-recipe" style="display:none">
+                    <h2>Ingredients</h2>
+                    <ul>
+                        <li>1 1/2 oz Lo-Fi Sweet Vermouth</li>
+                        <li>1 1/2 ox rye whiskey</li>
+                        <li>2 dashes bitters</li>
+                        <li>Orange peel</li>
+                    </ul>
+                    <br>
+                    <h2>Instructions</h2>
+                    <p>Combine ingredients in a cocktail pitcher and stir with ice. 
+                        Strain into a coupe glass and garnish with orange peel and/or brandied cherry.
+                    </p>
+                </div>
+            <!---------------------Hiddden Mobile Caption & Recipe-------------------------------->
 
         <div class="martini">
             <img class="cocktailImages" src="../Resources/Images/martini.jpg">
         </div>
             <!---------------------Hiddden Mobile Caption-------------------------------->
-                <div class="mobile_captions" style="display:none">
+                <div class="mobile-captions" style="display:none">
                     <h2>MARTINI</h2>
                     <span>Lo-Fi Dry Vermouth</span>
                     <button>RECIPE</button>
@@ -74,7 +89,7 @@
             <img class="cocktailImages" src="../Resources/Images/amaro-pink.jpg">
         </div>
             <!---------------------Hiddden Mobile Caption-------------------------------->
-                <div class="mobile_captions" style="display:none">
+                <div class="mobile-captions" style="display:none">
                     <h2>PINK AND SMOKY</h2>
                     <span>Lo-Fi Gentian Amaro</span>
                     <button>RECIPE</button>
@@ -84,19 +99,39 @@
 
         <!-------Row 3--------->
 
-        <div class="caption" class="manhattan_caption">
+        <div class="caption" id="manhattan-caption">
             <h2>MANHATTAN</h2>
             <span>Lo-Fi Sweet Vermouth</span>
-            <button>RECIPE</button>
+            <button onclick="manhattanRecipe();">SHOW RECIPE</button>
         </div>
-            
-        <div class="caption" class="martini_caption">
+
+
+            <!---------------------Hiddden Recipe --------------------------------------->
+                <div class="recipe-instructions" id="manhattan-recipe" style="display:none">
+                    <h2>Ingredients</h2>
+                    <ul>
+                        <li>1 1/2 oz Lo-Fi Sweet Vermouth</li>
+                        <li>1 1/2 ox rye whiskey</li>
+                        <li>2 dashes bitters</li>
+                        <li>Orange peel</li>
+                    </ul>
+                    <br>
+                    <h2>Instructions</h2>
+                    <p>Combine ingredients in a cocktail pitcher and stir with ice. 
+                        Strain into a coupe glass and garnish with orange peel and/or brandied cherry.
+                    </p>
+                    <button onclick="manhattanRecipe();">HIDE RECIPE</button>
+                </div>
+            <!---------------------Hiddden Recipe --------------------------------------->
+
+
+        <div class="caption" class="martini-caption">
             <h2>MARTINI</h2>
             <span>Lo-Fi Dry Vermouth</span>
             <button>RECIPE</button>
         </div>
 
-        <div class="caption" class="amaro-pink_caption">
+        <div class="caption" class="amaro-pink-caption">
             <h2>PINK AND SMOKY</h2>
             <span>Lo-Fi Gentian Amaro</span>
             <button>RECIPE</button>
@@ -118,7 +153,7 @@
             <img class="cocktailImages" src="../Resources/Images/highpoint.jpg">
         </div>
         <!---------------------Hiddden Mobile Caption-------------------------------->
-                <div class="mobile_captions" style="display:none">
+                <div class="mobile-captions" style="display:none">
                     <h2>HIGH POINT</h2>
                     <span>Lo-Fi Sweet Vermouth</span>
                     <button>RECIPE</button>
@@ -130,7 +165,7 @@
             <img class="cocktailImages" src="../Resources/Images/v&t.jpg">
         </div>
         <!---------------------Hiddden Mobile Caption-------------------------------->
-                <div class="mobile_captions" style="display:none">
+                <div class="mobile-captions" style="display:none">
                     <h2>V&T</h2>
                     <span>Lo-Fi Dry Vermouth</span>
                     <button>RECIPE</button>
@@ -142,7 +177,7 @@
             <img class="cocktailImages" src="../Resources/Images/pinkhighball.jpg">
         </div>
         <!---------------------Hiddden Mobile Caption-------------------------------->
-                <div class="mobile_captions" style="display:none">
+                <div class="mobile-captions" style="display:none">
                     <h2>PINK HIGHBALL</h2>
                     <span>Lo-Fi Gentian Amaro</span>
                     <button>RECIPE</button>
@@ -153,19 +188,19 @@
 
         <!-------Row 6--------->   
 
-        <div class="caption" class="highpoint_caption">
+        <div class="caption" class="highpoint-caption">
             <h2>HIGH POINT</h2>
             <span>Lo-Fi Sweet Vermouth</span>
             <button>RECIPE</button>
         </div>
             
-        <div class="caption" class="vt_caption">
+        <div class="caption" class="vt-caption">
             <h2>V&T</h2>
             <span>Lo-Fi Dry Vermouth</span>
             <button>RECIPE</button>
         </div>
 
-        <div class="caption" class="pinkhighball_caption">
+        <div class="caption" class="pinkhighball-caption">
             <h2>PINK HIGHBALL</h2>
             <span>Lo-Fi Gentian Amaro</span>
             <button>RECIPE</button>
@@ -186,7 +221,7 @@
             <img class="cocktailImages" src="../Resources/Images/lotus.jpg">
         </div>
         <!---------------------Hiddden Mobile Caption-------------------------------->
-                <div class="mobile_captions" style="display:none">
+                <div class="mobile-captions" style="display:none">
                     <h2>LOTUS</h2>
                     <span>Lo-Fi Sweet Vermouth</span>
                     <button>RECIPE</button>
@@ -199,7 +234,7 @@
             <img class="cocktailImages" src="../Resources/Images/pinkbeer.jpg">
         </div>
         <!---------------------Hiddden Mobile Caption-------------------------------->
-                <div class="mobile_captions" style="display:none">
+                <div class="mobile-captions" style="display:none">
                     <h2>LO-FI/PINK BEER</h2>
                     <span>Lo-Fi Dry Vermouth</span>
                     <button>RECIPE</button>
@@ -211,7 +246,7 @@
             <img class="cocktailImages" src="../Resources/Images/beesmoker.jpg">
         </div>
         <!---------------------Hiddden Mobile Caption-------------------------------->
-                <div class="mobile_captions" style="display:none">
+                <div class="mobile-captions" style="display:none">
                     <h2>BEE SMOKER</h2>
                     <span>Lo-Fi Gentian Amaro</span>
                     <button>RECIPE</button>
@@ -222,19 +257,19 @@
 
         <!-------Row 9--------->
 
-        <div class="caption" class="lotus_caption">
+        <div class="caption" class="lotus-caption">
             <h2>LOTUS</h2>
             <span>Lo-Fi Sweet Vermouth</span>
             <button>RECIPE</button>
         </div>
             
-        <div class="caption" class="pinkbeer_caption">
+        <div class="caption" class="pinkbeer-caption">
             <h2>LO-FI/PINK BEER</h2>
             <span>Lo-Fi Dry Vermouth</span>
             <button>RECIPE</button>
         </div>
 
-        <div class="caption" class="beesmoker_caption">
+        <div class="caption" class="beesmoker-caption">
             <h2>BEE SMOKER</h2>
             <span>Lo-Fi Gentian Amaro</span>
             <button>RECIPE</button>
@@ -257,7 +292,7 @@
             <img class="cocktailImages" src="../Resources/Images/whiteElephant.jpg">
         </div>
         <!---------------------Hiddden Mobile Caption-------------------------------->
-                <div class="mobile_captions" style="display:none">
+                <div class="mobile-captions" style="display:none">
                     <h2>WHITE ELEPHANT</h2>
                     <span>Lo-Fi Sweet Vermouth</span>
                     <button>RECIPE</button>
@@ -270,7 +305,7 @@
             <img class="cocktailImages" src="../Resources/Images/extradry.jpg">
         </div>
         <!---------------------Hiddden Mobile Caption-------------------------------->
-                <div class="mobile_captions" style="display:none">
+                <div class="mobile-captions" style="display:none">
                     <h2>EXTRA DRY</h2>
                     <span>Lo-Fi Dry Vermouth</span>
                     <button>RECIPE</button>
@@ -283,7 +318,7 @@
             <img class="cocktailImages" src="../Resources/Images/saturnreturns.jpg">
         </div>
         <!---------------------Hiddden Mobile Caption-------------------------------->
-                <div class="mobile_captions" style="display:none">
+                <div class="mobile-captions" style="display:none">
                     <h2>SATURN RETURNS</h2>
                     <span>Lo-Fi Gentian Amaro</span>
                     <button>RECIPE</button>
@@ -295,19 +330,19 @@
 
         <!-------Row 12-------->
 
-        <div class="caption" class="whiteElephant_caption">
+        <div class="caption" class="whiteElephant-caption">
             <h2>WHITE ELEPHANT</h2>
             <span>Lo-Fi Sweet Vermouth</span>
             <button>RECIPE</button>
         </div>
             
-        <div class="caption" class="extradry_caption">
+        <div class="caption" class="extradry-caption">
             <h2>EXTRA DRY</h2>
             <span>Lo-Fi Dry Vermouth</span>
             <button>RECIPE</button>
         </div>
 
-        <div class="caption" class="saturnreturns_caption">
+        <div class="caption" class="saturnreturns-caption">
             <h2>SATURN RETURNS</h2>
             <span>Lo-Fi Gentian Amaro</span>
             <button>RECIPE</button>
@@ -328,7 +363,7 @@
             <img class="cocktailImages" src="../Resources/Images/americano.jpg">
         </div>
         <!---------------------Hiddden Mobile Caption-------------------------------->
-                <div class="mobile_captions" style="display:none">
+                <div class="mobile-captions" style="display:none">
                     <h2>AMERICANO</h2>
                     <span>Lo-Fi Sweet Vermouth</span>
                     <button>RECIPE</button>
@@ -341,7 +376,7 @@
             <img class="cocktailImages" src="../Resources/Images/amerolofispritz.jpg">
         </div>
         <!---------------------Hiddden Mobile Caption-------------------------------->
-                <div class="mobile_captions" style="display:none">
+                <div class="mobile-captions" style="display:none">
                     <h2>LO-FI SPRITZ</h2>
                     <span>Lo-Fi Gentian Amaro</span>
                     <button>RECIPE</button>
@@ -358,13 +393,13 @@
 
         <!-------Row 15-------->
 
-        <div class="caption" class="americano_caption">
+        <div class="caption" class="americano-caption">
             <h2>AMERICANO</h2>
             <span>Lo-Fi Sweet Vermouth</span>
             <button>RECIPE</button>
         </div>
             
-        <div class="caption" class="lofispritz_caption">
+        <div class="caption" class="lofispritz-caption">
             <h2>LO-FI SPRITZ</h2>
             <span>Lo-Fi Gentian Amaro</span>
             <button>RECIPE</button>
@@ -391,7 +426,7 @@
             <img class="cocktailImages" src="../Resources/Images/pinkpaloma.jpg">
         </div>
         <!---------------------Hiddden Mobile Caption-------------------------------->
-                <div class="mobile_captions" style="display:none">
+                <div class="mobile-captions" style="display:none">
                     <h2>Pink Paloma</h2>
                     <span>Lo-Fi Gentian Amaro</span>
                     <button>RECIPE</button>
@@ -412,7 +447,7 @@
 
         <!-------Row 18-------->
 
-        <div class="caption" class="pinkpaloma_caption">
+        <div class="caption" class="pinkpaloma-caption">
             <h2>Pink Paloma</h2>
             <span>Lo-Fi Gentian Amaro</span>
             <button>RECIPE</button>
