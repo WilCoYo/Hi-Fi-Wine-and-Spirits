@@ -207,6 +207,16 @@ lowerNav li {
     }
 }
 
+@media only screen and (max-height: 30rem) {
+    .grid_container {
+        grid-template-columns: 1fr 1fr;
+    }
+
+    .hide-on-landscape {
+        display: none;
+    }
+}
+
 
 
 
