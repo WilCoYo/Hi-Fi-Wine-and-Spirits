@@ -129,7 +129,7 @@
                             Build over ice in a rocks glass and lightly stir to mix.
                         </p>
                     </div>
-                <!---------------------Hiddden Mobile Caption-------------------------------->
+                <!---------------------Hiddden Mobile Caption & Recipe-------------------------------->
 
 
 
@@ -143,23 +143,23 @@
         </div>
 
 
-            <!---------------------Hiddden Recipe --------------------------------------->
-                <div class="recipe-instructions" id="manhattan-recipe" style="display:none">
-                    <h2>Ingredients</h2>
-                    <ul>
-                        <li>1.5 oz Lo-Fi Sweet Vermouth</li>
-                        <li>1.5 oz Rye Whiskey</li>
-                        <li>2 Dashes Bitters</li>
-                        <li>Orange Peel</li>
-                    </ul>
-                    <br>
-                    <h2>Instructions</h2>
-                    <p>Combine ingredients in a cocktail pitcher and stir with ice. 
-                        Strain into a coupe glass and garnish with orange peel and/or brandied cherry.
-                    </p>
-                    <button onclick="manhattanRecipe();">HIDE RECIPE</button>
-                </div>
-            <!---------------------Hiddden Recipe --------------------------------------->
+                <!---------------------Hiddden Recipe --------------------------------------->
+                    <div class="recipe-instructions" id="manhattan-recipe" style="display:none">
+                        <h2>Ingredients</h2>
+                        <ul>
+                            <li>1.5 oz Lo-Fi Sweet Vermouth</li>
+                            <li>1.5 oz Rye Whiskey</li>
+                            <li>2 Dashes Bitters</li>
+                            <li>Orange Peel</li>
+                        </ul>
+                        <br>
+                        <h2>Instructions</h2>
+                        <p>Combine ingredients in a cocktail pitcher and stir with ice. 
+                            Strain into a coupe glass and garnish with orange peel and/or brandied cherry.
+                        </p>
+                        <button onclick="manhattanRecipe();">HIDE RECIPE</button>
+                    </div>
+                <!---------------------Hiddden Recipe --------------------------------------->
 
 
 
@@ -194,7 +194,7 @@
         <div class="caption" id='amaro-pink-caption' class="amaro-pink-caption">
             <h2>PINK AND SMOKY</h2>
             <span>Lo-Fi Gentian Amaro</span>
-            <button onclick='amaropinkRecipe()'>RECIPE</button>
+            <button onclick='amaropinkRecipe()'>SHOW RECIPE</button>
         </div>
 
 
@@ -232,59 +232,157 @@
         <div class="highpoint">
             <img class="cocktailImages" src="../Resources/Images/highpoint.jpg">
         </div>
-        <!---------------------Hiddden Mobile Caption-------------------------------->
-                <div class="mobile-captions" style="display:none">
-                    <h2>HIGH POINT</h2>
-                    <span>Lo-Fi Sweet Vermouth</span>
-                    <button>RECIPE</button>
-                </div>
-        <!---------------------Hiddden Mobile Caption-------------------------------->
+
+                <!---------------------Hiddden Mobile Caption & Recipe-------------------------------->
+                        <div class="mobile-captions" style="display:none">
+                            <h2>HIGH POINT</h2>
+                            <span>Lo-Fi Sweet Vermouth</span>
+                            <button id="highpoint-recipe-button" onclick='highpointRecipeMobile()'>SHOW RECIPE</button>
+                        </div>
+
+                        <div class="mobile-recipe-instructions" id="mobile-highpoint-recipe" style="display:none">
+                            <h2>Ingredients</h2>
+                            <ul>
+                                <li>2 oz Lo-Fi Sweet Vermouth</li>
+                                <li>Top with coconut water</li>
+                            </ul>
+                            <br>
+                            <h2>Instructions</h2>
+                            <p>
+                                Build over ice in glass and lightly stir to mix.
+                            </p>
+                        </div>
+                <!---------------------Hiddden Mobile Caption & Recipe-------------------------------->
 
 
         <div class="vt">
             <img class="cocktailImages" src="../Resources/Images/v&t.jpg">
         </div>
-        <!---------------------Hiddden Mobile Caption-------------------------------->
-                <div class="mobile-captions" style="display:none">
-                    <h2>V&T</h2>
-                    <span>Lo-Fi Dry Vermouth</span>
-                    <button>RECIPE</button>
-                </div>
-        <!---------------------Hiddden Mobile Caption-------------------------------->
+                <!---------------------Hiddden Mobile Caption & Recipe-------------------------------->
+                        <div class="mobile-captions" style="display:none">
+                            <h2>V&T</h2>
+                            <span>Lo-Fi Dry Vermouth</span>
+                            <button id="vt-recipe-button" onclick="vtRecipeMobile()">SHOW RECIPE</button>
+                        </div>
+
+                        <div class="mobile-recipe-instructions" id="mobile-vt-recipe" style="display:none">
+                            <h2>Ingredients</h2>
+                            <ul>
+                                <li>2 oz Lo-Fi Dry Vermouth</li>
+                                <li>Top with tonic water</li>
+                                <li>Lemon wedge garnish</li>
+                            </ul>
+                            <br>
+                            <h2>Instructions</h2>
+                            <p>
+                                Build in a collins glass. Garnish with lemon wedge.
+                            </p>
+                        </div>
+
+
+                <!---------------------Hiddden Mobile Caption & Recipe-------------------------------->
 
 
         <div class="pinkhighball">
             <img class="cocktailImages" src="../Resources/Images/pinkhighball.jpg">
         </div>
-        <!---------------------Hiddden Mobile Caption-------------------------------->
-                <div class="mobile-captions" style="display:none">
-                    <h2>PINK HIGHBALL</h2>
-                    <span>Lo-Fi Gentian Amaro</span>
-                    <button>RECIPE</button>
-                </div>   
-        <!---------------------Hiddden Mobile Caption-------------------------------->     
+                <!---------------------Hiddden Mobile Caption & Recipe-------------------------------->
+                        <div class="mobile-captions" style="display:none">
+                            <h2>PINK HIGHBALL</h2>
+                            <span>Lo-Fi Gentian Amaro</span>
+                            <button id="pinkhighball-recipe-button" onclick="pinkhighballRecipeMobile()">SHOW RECIPE</button>
+                        </div> 
+                        
+                        <div class="mobile-recipe-instructions" id="mobile-pinkhighball-recipe" style="display:none">
+                            <h2>Ingredients</h2>
+                            <ul>
+                                <li>2 oz Lo-Fi Gentian Amaro</li>
+                                <li>Top with grapefruit soda</li>
+                                <li>Grapefruit slice garnish</li>
+                            </ul>
+                            <br>
+                            <h2>Instructions</h2>
+                            <p>
+                                Build over ice in glass and lightly stir to mix.
+                            </p>
+                        </div>
+                <!---------------------Hiddden Mobile Caption & Recipe-------------------------------->     
                 
                
 
         <!-------Row 6--------->   
 
-        <div class="caption" class="highpoint-caption">
+        <div class="caption" id="highpoint-caption" class="highpoint-caption">
             <h2>HIGH POINT</h2>
             <span>Lo-Fi Sweet Vermouth</span>
-            <button>RECIPE</button>
-        </div>
-            
-        <div class="caption" class="vt-caption">
-            <h2>V&T</h2>
-            <span>Lo-Fi Dry Vermouth</span>
-            <button>RECIPE</button>
+            <button onclick="highpointRecipe()">SHOW RECIPE</button>
         </div>
 
-        <div class="caption" class="pinkhighball-caption">
+                    <!---------------------Hiddden Recipe --------------------------------------->
+                        <div class="recipe-instructions" id="highpoint-recipe" style="display:none">
+                            <h2>Ingredients</h2>
+                            <ul>
+                                <li>1.5 oz Lo-Fi Dry Vermouth</li>
+                                <li>1.5 oz London dry Style Gin</li>
+                                <li>2 Dashes Orange Bitters</li>
+                                <li>Lemon Peel</li>
+                            </ul>
+                            <br>
+                            <h2>Instructions</h2>
+                            <p>Combine ingredients in a cocktail pitcher and stir with ice. 
+                            Pour into a coupe or martini glass and garnish with lemon peel.
+                            </p>
+                            <button onclick="highpointRecipe();">HIDE RECIPE</button>
+                        </div>
+                    <!---------------------Hiddden Recipe --------------------------------------->
+
+
+
+        <div class="caption" id="vt-caption" class="vt-caption">
+            <h2>V&T</h2>
+            <span>Lo-Fi Dry Vermouth</span>
+            <button onclick="vtRecipe()">SHOW RECIPE</button>
+        </div>
+
+                    <!---------------------Hiddden Recipe --------------------------------------->
+                    <div class="recipe-instructions" id="vt-recipe" style="display:none">
+                        <h2>Ingredients</h2>
+                        <ul>
+                            <li>2 oz Lo-Fi Dry Vermouth</li>
+                            <li>Top with tonic water</li>
+                            <li>Lemon wedge garnish</li>
+                        </ul>
+                        <br>
+                        <h2>Instructions</h2>
+                        <p>
+                            Build in a collins glass. Garnish with lemon wedge.
+                        </p>
+                        <button onclick="vtRecipe();">HIDE RECIPE</button>
+                    </div>
+                    <!---------------------Hiddden Recipe --------------------------------------->
+
+        <div class="caption" id="pinkhighball-caption" class="pinkhighball-caption">
             <h2>PINK HIGHBALL</h2>
             <span>Lo-Fi Gentian Amaro</span>
-            <button>RECIPE</button>
+            <button onclick="pinkhighballRecipe()">SHOW RECIPE</button>
         </div>
+
+                    <!---------------------Hiddden Recipe --------------------------------------->
+                    <div class="recipe-instructions" id="pinkhighball-recipe" style="display:none">
+                        <h2>Ingredients</h2>
+                        <ul>
+                            <li>2 oz Lo-Fi Gentian Amaro</li>
+                            <li>Top with grapefruit soda</li>
+                            <li>Grapefruit slice garnish</li>
+                        </ul>
+                        <br>
+                        <h2>Instructions</h2>
+                        <p>
+                            Build over ice in glass and lightly stir to mix.
+                        </p>
+                        <button onclick="pinkhighballRecipe();">HIDE RECIPE</button>
+                    </div>
+                    <!---------------------Hiddden Recipe --------------------------------------->
 
 
         <!-------Row 7--------->
@@ -300,60 +398,159 @@
         <div class="lotus">
             <img class="cocktailImages" src="../Resources/Images/lotus.jpg">
         </div>
-        <!---------------------Hiddden Mobile Caption-------------------------------->
-                <div class="mobile-captions" style="display:none">
-                    <h2>LOTUS</h2>
-                    <span>Lo-Fi Sweet Vermouth</span>
-                    <button>RECIPE</button>
-                </div>
-        <!---------------------Hiddden Mobile Caption-------------------------------->
+                    <!---------------------Hiddden Mobile Caption & Recipe-------------------------------->
+                            <div class="mobile-captions" style="display:none">
+                                <h2>LOTUS</h2>
+                                <span>Lo-Fi Dry Vermouth</span>
+                                <button id="lotus-recipe-button" onclick="lotusRecipeMobile()">SHOW RECIPE</button>
+                            </div>
+
+                            <div class="mobile-recipe-instructions" id="mobile-lotus-recipe" style="display:none">
+                                <h2>Ingredients</h2>
+                                <ul>
+                                    <li>2 oz Lo-Fi Dry Vermouth</li>
+                                    <li>1 oz dry sake</li>
+                                    <li>1 oz gin</li>
+                                </ul>
+                                <br>
+                                <h2>Instructions</h2>
+                                <p>
+                                    Build over ice in glass and lightly stir to mix.<br>
+                                    Garnish with cucumber slice.
+                                </p>
+                            </div>
+                    <!---------------------Hiddden Mobile Caption & Recipe-------------------------------->
 
 
 
         <div class="pinkbeer">
             <img class="cocktailImages" src="../Resources/Images/pinkbeer.jpg">
         </div>
-        <!---------------------Hiddden Mobile Caption-------------------------------->
-                <div class="mobile-captions" style="display:none">
-                    <h2>LO-FI/PINK BEER</h2>
-                    <span>Lo-Fi Dry Vermouth</span>
-                    <button>RECIPE</button>
-                </div>
-        <!---------------------Hiddden Mobile Caption-------------------------------->
+                    <!---------------------Hiddden Mobile Caption & Recipe-------------------------------->
+                            <div class="mobile-captions" style="display:none">
+                                <h2>LO-FI/PINK BEER</h2>
+                                <span>Lo-Fi Dry Vermouth</span>
+                                <button id="pinkbeer-recipe-button" onclick="pinkbeerRecipeMobile()">SHOW RECIPE</button>
+                            </div>
+
+                            <div class="mobile-recipe-instructions" id="mobile-pinkbeer-recipe" style="display:none">
+                                <h2>Ingredients</h2>
+                                <ul>
+                                    <li>1-2 oz Lo-Fi Gentian Amaro</li>
+                                    <li>1 Light Beer</li>
+                                </ul>
+                                <br>
+                                <h2>Instructions</h2>
+                                <p>
+                                    Pour Lo-Fi directly into beer and enjoy.
+                                </p>
+                            </div>
+                    <!---------------------Hiddden Mobile Caption & Recipe-------------------------------->
           
         
         <div class="beesmoker">
             <img class="cocktailImages" src="../Resources/Images/beesmoker.jpg">
         </div>
-        <!---------------------Hiddden Mobile Caption-------------------------------->
-                <div class="mobile-captions" style="display:none">
-                    <h2>BEE SMOKER</h2>
-                    <span>Lo-Fi Gentian Amaro</span>
-                    <button>RECIPE</button>
-                </div>
-        <!---------------------Hiddden Mobile Caption-------------------------------->
+                    <!---------------------Hiddden Mobile Caption & Recipe-------------------------------->
+                            <div class="mobile-captions" style="display:none">
+                                <h2>BEE SMOKER</h2>
+                                <span>Lo-Fi Gentian Amaro</span>
+                                <button id="beesmoker-recipe-button" onclick="beesmokerRecipeMobile()">SHOW RECIPE</button>
+                            </div>
+
+                            <div class="mobile-recipe-instructions" id="mobile-beesmoker-recipe" style="display:none">
+                                <h2>Ingredients</h2>
+                                <ul>
+                                    <li>1oz Lo-Fi Sweet Vermouth</li>
+                                    <li>1oz mezcal</li>
+                                    <li>3/4 oz lemon juice</li>
+                                    <li>3/4 oz honey syrup</li>
+                                    <li>Top with freshly grated cinammon</li>
+                                </ul>
+                                <br>
+                                <h2>Instructions</h2>
+                                <p>
+                                    Combine ingredients and shake with ice.<br>
+                                    Strain into glass over fresh ice.
+                                </p>
+                            </div>
+                    <!---------------------Hiddden Mobile Caption & Recipe-------------------------------->
 
 
 
         <!-------Row 9--------->
 
-        <div class="caption" class="lotus-caption">
+        <div class="caption" id="lotus-caption" class="lotus-caption">
             <h2>LOTUS</h2>
-            <span>Lo-Fi Sweet Vermouth</span>
-            <button>RECIPE</button>
-        </div>
-            
-        <div class="caption" class="pinkbeer-caption">
-            <h2>LO-FI/PINK BEER</h2>
             <span>Lo-Fi Dry Vermouth</span>
-            <button>RECIPE</button>
+            <button onclick="lotusRecipe();">SHOW RECIPE</button>
         </div>
 
-        <div class="caption" class="beesmoker-caption">
-            <h2>BEE SMOKER</h2>
+                    <!---------------------Hiddden Recipe --------------------------------------->
+                    <div class="recipe-instructions" id="lotus-recipe" style="display:none">
+                        <h2>Ingredients</h2>
+                        <ul>
+                            <li>2 oz Lo-Fi Dry Vermouth</li>
+                            <li>1 oz dry sake</li>
+                            <li>1 oz gin</li>
+                        </ul>
+                        <br>
+                        <h2>Instructions</h2>
+                        <p>
+                            Build over ice in glass and lightly stir to mix.<br>
+                            Garnish with cucumber slice.
+                        </p>
+                        <button onclick="lotusRecipe();">HIDE RECIPE</button>
+                    </div>
+                    <!---------------------Hiddden Recipe --------------------------------------->
+            
+        <div class="caption" id="pinkbeer-caption" class="pinkbeer-caption">
+            <h2>LO-FI/PINK BEER</h2>
             <span>Lo-Fi Gentian Amaro</span>
-            <button>RECIPE</button>
+            <button onclick="pinkbeerRecipe()">SHOW RECIPE</button>
         </div>
+
+                    <!---------------------Hiddden Recipe --------------------------------------->
+                    <div class="recipe-instructions" id="pinkbeer-recipe" style="display:none">
+                        <h2>Ingredients</h2>
+                        <ul>
+                            <li>1-2 oz Lo-Fi Gentian Amaro</li>
+                            <li>1 Light Beer</li>
+                        </ul>
+                        <br>
+                        <h2>Instructions</h2>
+                        <p>
+                            Pour Lo-Fi directly into beer and enjoy.
+                        </p>
+                        <button onclick="pinkbeerRecipe();">HIDE RECIPE</button>
+                    </div>
+                    <!---------------------Hiddden Recipe --------------------------------------->
+
+        <div class="caption" id="beesmoker-caption" class="beesmoker-caption">
+            <h2>BEE SMOKER</h2>
+            <span>Lo-fi Sweet Vermouth</span>
+            <button onclick="beesmokerRecipe()">SHOW RECIPE</button>
+        </div>
+
+                    <!---------------------Hiddden Recipe --------------------------------------->
+                    <div class="recipe-instructions" id="beesmoker-recipe" style="display:none">
+                        <h2>Ingredients</h2>
+                        <ul>
+                            <li>1oz Lo-Fi Sweet Vermouth</li>
+                            <li>1oz mezcal</li>
+                            <li>3/4 oz lemon juice</li>
+                            <li>3/4 oz honey syrup</li>
+                            <li>Top with freshly grated cinammon</li>
+                        </ul>
+                        <br>
+                        <h2>Instructions</h2>
+                        <p>
+                            Combine ingredients and shake with ice.<br>
+                            Strain into glass over fresh ice.
+                        </p>
+                        <button onclick="beesmokerRecipe();">HIDE RECIPE</button>
+                    </div>
+                    <!---------------------Hiddden Recipe --------------------------------------->
 
 
 
@@ -371,62 +568,155 @@
         <div class="whiteElephant">
             <img class="cocktailImages" src="../Resources/Images/whiteElephant.jpg">
         </div>
-        <!---------------------Hiddden Mobile Caption-------------------------------->
-                <div class="mobile-captions" style="display:none">
-                    <h2>WHITE ELEPHANT</h2>
-                    <span>Lo-Fi Sweet Vermouth</span>
-                    <button>RECIPE</button>
-                </div>
-        <!---------------------Hiddden Mobile Caption-------------------------------->
+                    <!---------------------Hiddden Mobile Caption & Recipe-------------------------------->
+                            <div class="mobile-captions" style="display:none">
+                                <h2>WHITE ELEPHANT</h2>
+                                <span>Lo-Fi Sweet Vermouth</span>
+                                <button id="whiteElephant-recipe-button" onclick="whiteElephantRecipeMobile()">SHOW RECIPE</button>
+                            </div>
+
+                            <div class="mobile-recipe-instructions" id="mobile-whiteElephant-recipe" style="display:none">
+                                <h2>Ingredients</h2>
+                                <ul>
+                                    <li>2 oz Lo-Fi Sweet Vermouth</li>
+                                    <li>2 oz coconut cream</li>
+                                    <li>1 oz cold brew coffee</li>
+                                    <li>Coconut flakes</li>
+                                </ul>
+                                <br>
+                                <h2>Instructions</h2>
+                                <p>
+                                    Combine ingredients and shake hard with ice.<br>
+                                    Strain into glass and garnish with coconut flakes.
+                                </p>
+                            </div>
+                    <!---------------------Hiddden Mobile Caption & Recipe-------------------------------->
 
 
 
         <div class="extradry">
             <img class="cocktailImages" src="../Resources/Images/extradry.jpg">
         </div>
-        <!---------------------Hiddden Mobile Caption-------------------------------->
-                <div class="mobile-captions" style="display:none">
-                    <h2>EXTRA DRY</h2>
-                    <span>Lo-Fi Dry Vermouth</span>
-                    <button>RECIPE</button>
-                </div>
-        <!---------------------Hiddden Mobile Caption-------------------------------->
+                    <!---------------------Hiddden Mobile Caption & Recipe-------------------------------->
+                            <div class="mobile-captions" style="display:none">
+                                <h2>EXTRA DRY</h2>
+                                <span>Lo-Fi Dry Vermouth</span>
+                                <button id="extradry-recipe-button" onclick="extradryRecipeMobile()">SHOW RECIPE</button>
+                            </div>
+
+                            <div class="mobile-recipe-instructions" id="mobile-extradry-recipe" style="display:none">
+                                <h2>Ingredients</h2>
+                                <ul>
+                                    <li>2 oz Lo-Fi Dry Vermouth</li>
+                                    <li>Top with dry apple cider</li>
+                                </ul>
+                                <br>
+                                <h2>Instructions</h2>
+                                <p>
+                                    Build over ice in glass and lightly stir to mix.
+                                </p>
+                            </div>
+                    <!---------------------Hiddden Mobile Caption & Recipe-------------------------------->
 
 
             
         <div class="saturnreturns">
             <img class="cocktailImages" src="../Resources/Images/saturnreturns.jpg">
         </div>
-        <!---------------------Hiddden Mobile Caption-------------------------------->
-                <div class="mobile-captions" style="display:none">
-                    <h2>SATURN RETURNS</h2>
-                    <span>Lo-Fi Gentian Amaro</span>
-                    <button>RECIPE</button>
-                </div>
-        <!---------------------Hiddden Mobile Caption-------------------------------->
+                    <!---------------------Hiddden Mobile Caption & Recipe-------------------------------->
+                            <div class="mobile-captions" style="display:none">
+                                <h2>SATURN RETURNS</h2>
+                                <span>Lo-Fi Gentian Amaro</span>
+                                <button id="saturnreturns-recipe-button" onclick="saturnreturnsRecipeMobile()">SHOW RECIPE</button>
+                            </div>
+
+                            <div class="mobile-recipe-instructions" id="mobile-saturnreturns-recipe" style="display:none">
+                                <h2>Ingredients</h2>
+                                <ul>
+                                    <li>2oz Lo-Fi Gentian Amaro</li>
+                                    <li>Top with fresh pineapple juice</li>
+                                </ul>
+                                <br>
+                                <h2>Instructions</h2>
+                                <p>
+                                    Build over ice in glass and lightly stir to mix.
+                                </p>
+                            </div>
+                    <!---------------------Hiddden Mobile Caption & Recipe-------------------------------->
 
 
 
 
         <!-------Row 12-------->
 
-        <div class="caption" class="whiteElephant-caption">
+        <div class="caption" id="whiteElephant-caption" class="whiteElephant-caption">
             <h2>WHITE ELEPHANT</h2>
             <span>Lo-Fi Sweet Vermouth</span>
-            <button>RECIPE</button>
-        </div>
-            
-        <div class="caption" class="extradry-caption">
-            <h2>EXTRA DRY</h2>
-            <span>Lo-Fi Dry Vermouth</span>
-            <button>RECIPE</button>
+            <button onclick="whiteElephantRecipe()">SHOW RECIPE</button>
         </div>
 
-        <div class="caption" class="saturnreturns-caption">
+                        <!---------------------Hiddden Recipe --------------------------------------->
+                        <div class="recipe-instructions" id="whiteElephant-recipe" style="display:none">
+                            <h2>Ingredients</h2>
+                            <ul>
+                                <li>2 oz Lo-Fi Sweet Vermouth</li>
+                                <li>2 oz coconut cream</li>
+                                <li>1 oz cold brew coffee</li>
+                                <li>Coconut flakes</li>
+                            </ul>
+                            <br>
+                            <h2>Instructions</h2>
+                            <p>
+                                Combine ingredients and shake hard with ice.<br>
+                                Strain into glass and garnish with coconut flakes.
+                            </p>
+                            <button onclick="whiteElephantRecipe();">HIDE RECIPE</button>
+                        </div>
+                        <!---------------------Hiddden Recipe --------------------------------------->
+            
+        <div class="caption" id="extradry-caption" class="extradry-caption">
+            <h2>EXTRA DRY</h2>
+            <span>Lo-Fi Dry Vermouth</span>
+            <button onclick="extradryRecipe()">SHOW RECIPE</button>
+        </div>
+
+                        <!---------------------Hiddden Recipe --------------------------------------->
+                        <div class="recipe-instructions" id="extradry-recipe" style="display:none">
+                            <h2>Ingredients</h2>
+                            <ul>
+                                <li>2 oz Lo-Fi Dry Vermouth</li>
+                                <li>Top with dry apple cider</li>
+                            </ul>
+                            <br>
+                            <h2>Instructions</h2>
+                            <p>
+                                Build over ice in glass and lightly stir to mix.
+                            </p>
+                            <button onclick="extradryRecipe();">HIDE RECIPE</button>
+                        </div>
+                        <!---------------------Hiddden Recipe --------------------------------------->
+
+        <div class="caption" id="saturnreturns-caption" class="saturnreturns-caption">
             <h2>SATURN RETURNS</h2>
             <span>Lo-Fi Gentian Amaro</span>
-            <button>RECIPE</button>
+            <button onclick="saturnreturnsRecipe()">SHOW RECIPE</button>
         </div>
+
+                        <!---------------------Hiddden Recipe --------------------------------------->
+                        <div class="recipe-instructions" id="saturnreturns-recipe" style="display:none">
+                            <h2>Ingredients</h2>
+                            <ul>
+                                <li>2oz Lo-Fi Gentian Amaro</li>
+                                <li>Top with fresh pineapple juice</li>
+                            </ul>
+                            <br>
+                            <h2>Instructions</h2>
+                            <p>
+                                Build over ice in glass and lightly stir to mix.
+                            </p>
+                            <button onclick="saturnreturnsRecipe();">HIDE RECIPE</button>
+                        </div>
+                        <!---------------------Hiddden Recipe --------------------------------------->
 
 
         <!-------Row 13-------->
@@ -442,26 +732,57 @@
         <div class="americano">
             <img class="cocktailImages" src="../Resources/Images/americano.jpg">
         </div>
-        <!---------------------Hiddden Mobile Caption-------------------------------->
-                <div class="mobile-captions" style="display:none">
-                    <h2>AMERICANO</h2>
-                    <span>Lo-Fi Sweet Vermouth</span>
-                    <button>RECIPE</button>
-                </div>
-        <!---------------------Hiddden Mobile Caption-------------------------------->
+                        <!---------------------Hiddden Mobile Caption & Recipe-------------------------------->
+                                <div class="mobile-captions" style="display:none">
+                                    <h2>AMERICANO</h2>
+                                    <span>Lo-Fi Sweet Vermouth</span>
+                                    <button id="americano-recipe-button" onclick="americanoRecipeMobile()">SHOW RECIPE</button>
+                                </div>
+
+                                <div class="mobile-recipe-instructions" id="mobile-americano-recipe" style="display:none">
+                                    <h2>Ingredients</h2>
+                                    <ul>
+                                        <li>1.5oz Lo-Fi Sweet Vermouth</li>
+                                        <li>1.5oz Campari</li>
+                                        <li>Top with soda water</li>
+                                        <li>Top with soda water</li>
+                                    </ul>
+                                    <br>
+                                    <h2>Instructions</h2>
+                                    <p>
+                                        Build over ice in glass and lightly stir to mix.<br>
+                                        Garnish with orange twist.
+                                    </p>
+                                </div>
+                        <!---------------------Hiddden Mobile Caption & Recipe-------------------------------->
 
 
 
         <div class="lofispritz">
             <img class="cocktailImages" src="../Resources/Images/amerolofispritz.jpg">
         </div>
-        <!---------------------Hiddden Mobile Caption-------------------------------->
-                <div class="mobile-captions" style="display:none">
-                    <h2>LO-FI SPRITZ</h2>
-                    <span>Lo-Fi Gentian Amaro</span>
-                    <button>RECIPE</button>
-                </div>
-        <!---------------------Hiddden Mobile Caption-------------------------------->
+                        <!---------------------Hiddden Mobile Caption & Recipe-------------------------------->
+                                <div class="mobile-captions" style="display:none">
+                                    <h2>LO-FI SPRITZ</h2>
+                                    <span>Lo-Fi Gentian Amaro</span>
+                                    <button id="lofispritz-recipe-button" onclick="lofispritzRecipeMobile()">SHOW RECIPE</button>
+                                </div>
+
+                                <div class="mobile-recipe-instructions" id="mobile-lofispritz-recipe" style="display:none">
+                                    <h2>Ingredients</h2>
+                                    <ul>
+                                        <li>2 parts Lo-Fi Gentian Amaro</li>
+                                        <li>2 parts sparkling wine</li>
+                                        <li>Splash of soda</li>
+                                        <li>Grapefruit slice garnish</li>
+                                    </ul>
+                                    <br>
+                                    <h2>Instructions</h2>
+                                    <p>
+                                        Build in a white wine glass over ice and garnish with a grapefruit slice.
+                                    </p>
+                                </div>
+                        <!---------------------Hiddden Mobile Caption & Recipe-------------------------------->
 
 
 
@@ -473,17 +794,54 @@
 
         <!-------Row 15-------->
 
-        <div class="caption" class="americano-caption">
+        <div class="caption" id='americano-caption' class="americano-caption">
             <h2>AMERICANO</h2>
             <span>Lo-Fi Sweet Vermouth</span>
-            <button>RECIPE</button>
+            <button onclick="americanoRecipe()">SHOW RECIPE</button>
         </div>
+
+                        <!---------------------Hiddden Recipe --------------------------------------->
+                        <div class="recipe-instructions" id="americano-recipe" style="display:none">
+                            <h2>Ingredients</h2>
+                                <ul>
+                                    <li>1.5oz Lo-Fi Sweet Vermouth</li>
+                                    <li>1.5oz Campari</li>
+                                    <li>Top with soda water</li>
+                                    <li>Top with soda water</li>
+                                </ul>
+                                <br>
+                                <h2>Instructions</h2>
+                                <p>
+                                    Build over ice in glass and lightly stir to mix.<br>
+                                    Garnish with orange twist.
+                                </p>
+                            <button onclick="americanoRecipe()">HIDE RECIPE</button>
+                        </div>
+                        <!---------------------Hiddden Recipe --------------------------------------->
             
-        <div class="caption" class="lofispritz-caption">
+        <div class="caption" id='lofispritz-caption' class="lofispritz-caption">
             <h2>LO-FI SPRITZ</h2>
             <span>Lo-Fi Gentian Amaro</span>
-            <button>RECIPE</button>
+            <button onclick="lofispritzRecipe()">SHOW RECIPE</button>
         </div>
+
+                        <!---------------------Hiddden Recipe --------------------------------------->
+                        <div class="recipe-instructions" id="lofispritz-recipe" style="display:none">
+                            <h2>Ingredients</h2>
+                            <ul>
+                                <li>2 parts Lo-Fi Gentian Amaro</li>
+                                <li>2 parts sparkling wine</li>
+                                <li>Splash of soda</li>
+                                <li>Grapefruit slice garnish</li>
+                            </ul>
+                            <br>
+                            <h2>Instructions</h2>
+                            <p>
+                                Build in a white wine glass over ice and garnish with a grapefruit slice.
+                            </p>
+                            <button onclick="lofispritzRecipe()">HIDE RECIPE</button>
+                        </div>
+                        <!---------------------Hiddden Recipe --------------------------------------->
 
         <div>
             <!--blank-->
@@ -505,14 +863,30 @@
         <div class="pinkpaloma">
             <img class="cocktailImages" src="../Resources/Images/pinkpaloma.jpg">
         </div>
-        <!---------------------Hiddden Mobile Caption-------------------------------->
-                <div class="mobile-captions" style="display:none">
-                    <h2>Pink Paloma</h2>
-                    <span>Lo-Fi Gentian Amaro</span>
-                    <button>RECIPE</button>
-                </div>
+                        <!---------------------Hiddden Mobile Caption & Recipe-------------------------------->
+                                <div class="mobile-captions" style="display:none">
+                                    <h2>Pink Paloma</h2>
+                                    <span>Lo-Fi Gentian Amaro</span>
+                                    <button id="pinkpaloma-recipe-button" onclick="pinkpalomaRecipeMobile()">SHOW RECIPE</button>
+                                </div>
 
-        <!---------------------Hiddden Mobile Caption-------------------------------->
+                                <div class="mobile-recipe-instructions" id="mobile-pinkpaloma-recipe" style="display:none">
+                                    <h2>Ingredients</h2>
+                                    <ul>
+                                        <li>1 part Lo-Fi Gentian Amaro</li>
+                                        <li>1 part blanco tequila</li>
+                                        <li>Top with grapefruit soda</li>
+                                        <li>Salt rim and grapefruit slice garnish</li>
+                                    </ul>
+                                    <br>
+                                    <h2>Instructions</h2>
+                                    <p>
+                                        Build in salt-rimmed glass over ice. Lightly stir to mix.<br>
+                                        Garnish with a grapefruit slice.
+                                    </p>
+                                </div>
+
+                        <!---------------------Hiddden Mobile Caption & Recipe-------------------------------->
 
         <div>
             <!--blank-->
@@ -527,11 +901,30 @@
 
         <!-------Row 18-------->
 
-        <div class="caption" class="pinkpaloma-caption">
+        <div class="caption" id="pinkpaloma-caption" class="pinkpaloma-caption">
             <h2>Pink Paloma</h2>
             <span>Lo-Fi Gentian Amaro</span>
-            <button>RECIPE</button>
+            <button onclick="pinkpalomaRecipe()">SHOW RECIPE</button>
         </div>
+
+                        <!---------------------Hiddden Recipe --------------------------------------->
+                        <div class="recipe-instructions" id="pinkpaloma-recipe" style="display:none">
+                            <h2>Ingredients</h2>
+                            <ul>
+                                <li>1 part Lo-Fi Gentian Amaro</li>
+                                <li>1 part blanco tequila</li>
+                                <li>Top with grapefruit soda</li>
+                                <li>Salt rim and grapefruit slice garnish</li>
+                            </ul>
+                            <br>
+                            <h2>Instructions</h2>
+                            <p>
+                                Build in salt-rimmed glass over ice. Lightly stir to mix.<br>
+                                Garnish with a grapefruit slice.
+                            </p>
+                            <button onclick="pinkpalomaRecipe()">HIDE RECIPE</button>
+                        </div>
+                        <!---------------------Hiddden Recipe --------------------------------------->
             
         <div>
             <!--blank-->
