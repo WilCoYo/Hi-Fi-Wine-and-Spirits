@@ -42,6 +42,10 @@ const underageChecker = () => {
 };
 
 
+
+// Function for Header change in size after scrolling
+
+
 window.onscroll = function() {
   scrollFunction()
 };
@@ -65,32 +69,86 @@ const scrollFunction = () => {
 
 
 
-const manhattanRecipe = () => {
-  if(document.getElementById('manhattan_recipe').style.display === "none"){
-    document.getElementById('manhattan_recipe').style.display = '';
-    document.getElementById('manhattan_caption').style.display = 'none';
+// Functinon to show and hide Recipes on Desktop and Mobile
 
+
+const manhattanRecipe = () => {
+  if(document.getElementById('manhattan-recipe').style.display === "none"){
+    document.getElementById('manhattan-recipe').style.display = '';
+    document.getElementById('manhattan-caption').style.display = 'none';
   } else {
-    document.getElementById('manhattan_recipe').style.display = 'none';
-    document.getElementById('manhattan_caption').style.display = '';
+    document.getElementById('manhattan-recipe').style.display = 'none';
+    document.getElementById('manhattan-caption').style.display = '';
   }
 
 }
-
-
 
 const manhattanRecipeMobile = () => {
   if(document.getElementById("mobile-manhattan-recipe").style.display === "none"){
     document.getElementById("mobile-manhattan-recipe").style.display = '';
-    // document.getElementById("manhattan-image").style.display = 'none';
     document.getElementById('manhattan-Recipe-Button').innerHTML = "HIDE RECIPE"
   } else {
     document.getElementById("mobile-manhattan-recipe").style.display = 'none';
-    // document.getElementById("manhattan-image").style.display = '';
     document.getElementById('manhattan-Recipe-Button').innerHTML = "SHOW RECIPE"
   }
  
 }
+
+
+
+
+
+const martiniRecipe = () => {
+  if(document.getElementById('martini-recipe').style.display === "none"){
+    document.getElementById('martini-recipe').style.display = '';
+    document.getElementById('martini-caption').style.display = 'none';
+  } else {
+    document.getElementById('martini-recipe').style.display = 'none';
+    document.getElementById('martini-caption').style.display = '';
+  }
+
+}
+
+const martiniRecipeMobile = () => {
+  if(document.getElementById("mobile-martini-recipe").style.display === "none"){
+    document.getElementById("mobile-martini-recipe").style.display = '';
+    document.getElementById("martini-recipe-button").innerHTML = "HIDE RECIPE"
+  } else {
+    document.getElementById("mobile-martini-recipe").style.display = 'none';
+    document.getElementById("martini-recipe-button").innerHTML = "SHOW RECIPE"
+  }
+ 
+}
+
+
+
+
+const amaropinkRecipe = () => {
+  if(document.getElementById('amaropink-recipe').style.display === "none"){
+    document.getElementById('amaropink-recipe').style.display = '';
+    document.getElementById('amaro-pink-caption').style.display = 'none';
+  } else {
+    document.getElementById('amaropink-recipe').style.display = 'none';
+    document.getElementById('amaro-pink-caption').style.display = '';
+  }
+
+}
+
+const amaropinkRecipeMobile = () => {
+  if(document.getElementById("mobile-amaropink-recipe").style.display === "none"){
+    document.getElementById("mobile-amaropink-recipe").style.display = '';
+    document.getElementById("amaropink-recipe-button").innerHTML = "HIDE RECIPE"
+  } else {
+    document.getElementById("mobile-amaropink-recipe").style.display = 'none';
+    document.getElementById("amaropink-recipe-button").innerHTML = "SHOW RECIPE"
+  }
+ 
+}
+
+
+
+
+
 
 
 

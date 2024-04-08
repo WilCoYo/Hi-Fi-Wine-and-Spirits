@@ -49,52 +49,89 @@
 
         <!-------Row 2--------->
         <div class="manhattan">
-            <img class="cocktailImages" id="manhattan-image" src="../Resources/Images/manhattan.jpg">
+            <img class="cocktailImages" src="../Resources/Images/manhattan.jpg">
         </div>
-            <!---------------------Hiddden Mobile Caption & Recipe-------------------------------->
-                <div class="mobile-captions" id="manhattan-mobile-caption" style="display:none">
-                    <h2>MANHATTAN</h2>
-                    <span>Lo-Fi Sweet Vermouth</span>
-                    <button id='manhattan-Recipe-Button' onclick="manhattanRecipeMobile();">SHOW RECIPE</button>
-                </div>
+                <!---------------------Hiddden Mobile Caption & Recipe-------------------------------->
+                    <div class="mobile-captions" id="manhattan-mobile-caption" style="display:none">
+                        <h2>MANHATTAN</h2>
+                        <span>Lo-Fi Sweet Vermouth</span>
+                        <button id='manhattan-Recipe-Button' onclick="manhattanRecipeMobile();">SHOW RECIPE</button>
+                    </div>
 
-                <div class="mobile-recipe-instructions" id="mobile-manhattan-recipe" style="display:none">
-                    <h2>Ingredients</h2>
-                    <ul>
-                        <li>1 1/2 oz Lo-Fi Sweet Vermouth</li>
-                        <li>1 1/2 ox rye whiskey</li>
-                        <li>2 dashes bitters</li>
-                        <li>Orange peel</li>
-                    </ul>
-                    <br>
-                    <h2>Instructions</h2>
-                    <p>Combine ingredients in a cocktail pitcher and stir with ice. 
-                        Strain into a coupe glass and garnish with orange peel and/or brandied cherry.
-                    </p>
-                </div>
-            <!---------------------Hiddden Mobile Caption & Recipe-------------------------------->
+                    <div class="mobile-recipe-instructions" id="mobile-manhattan-recipe" style="display:none">
+                        <h2>Ingredients</h2>
+                        <ul>
+                            <li>1 1/2 oz Lo-Fi Sweet Vermouth</li>
+                            <li>1 1/2 ox rye whiskey</li>
+                            <li>2 dashes bitters</li>
+                            <li>Orange peel</li>
+                        </ul>
+                        <br>
+                        <h2>Instructions</h2>
+                        <p>Combine ingredients in a cocktail pitcher and stir with ice. 
+                            Strain into a coupe glass and garnish with orange peel and/or brandied cherry.
+                        </p>
+                    </div>
+                <!---------------------Hiddden Mobile Caption & Recipe-------------------------------->
+
+
+
 
         <div class="martini">
             <img class="cocktailImages" src="../Resources/Images/martini.jpg">
         </div>
-            <!---------------------Hiddden Mobile Caption-------------------------------->
-                <div class="mobile-captions" style="display:none">
-                    <h2>MARTINI</h2>
-                    <span>Lo-Fi Dry Vermouth</span>
-                    <button>RECIPE</button>
-                </div>
-            <!---------------------Hiddden Mobile Caption-------------------------------->
+                <!---------------------Hiddden Mobile Caption & Recipe-------------------------------->
+                    <div class="mobile-captions" style="display:none">
+                        <h2>MARTINI</h2>
+                        <span>Lo-Fi Dry Vermouth</span>
+                        <button id='martini-recipe-button' onclick='martiniRecipeMobile()'>SHOW RECIPE</button>
+                    </div>
+
+                    <div class="mobile-recipe-instructions" id="mobile-martini-recipe" style="display:none">
+                        <h2>Ingredients</h2>
+                        <ul>
+                            <li>1.5 oz Lo-Fi Dry Vermouth</li>
+                            <li>1.5 oz London dry Style Gin</li>
+                            <li>2 Dashes Orange Bitters</li>
+                            <li>Lemon Peel</li>
+                        </ul>
+                        <br>
+                        <h2>Instructions</h2>
+                        <p>Combine ingredients in a cocktail pitcher and stir with ice. 
+                           Pour into a coupe or martini glass and garnish with lemon peel.
+                        </p>
+                    </div>
+                <!---------------------Hiddden Mobile Caption-------------------------------->
+
+
+
+
 
         <div class="amaro-pink">
             <img class="cocktailImages" src="../Resources/Images/amaro-pink.jpg">
         </div>
-            <!---------------------Hiddden Mobile Caption-------------------------------->
-                <div class="mobile-captions" style="display:none">
-                    <h2>PINK AND SMOKY</h2>
-                    <span>Lo-Fi Gentian Amaro</span>
-                    <button>RECIPE</button>
-                </div>
-            <!---------------------Hiddden Mobile Caption-------------------------------->
+                <!---------------------Hiddden Mobile Caption & Recipe-------------------------------->
+                    <div class="mobile-captions" style="display:none">
+                        <h2>PINK AND SMOKY</h2>
+                        <span>Lo-Fi Gentian Amaro</span>
+                        <button id='amaropink-recipe-button' onclick='amaropinkRecipeMobile();'>SHOW RECIPE</button>
+                    </div>
+
+                    <div class="mobile-recipe-instructions" id="mobile-amaropink-recipe" style="display:none">
+                        <h2>Ingredients</h2>
+                        <ul>
+                            <li>1 part Lo-Fi Gentian Amaro</li>
+                            <li>1 part Mezcal</li>
+                        </ul>
+                        <br>
+                        <h2>Instructions</h2>
+                        <p>
+                            Build over ice in a rocks glass and lightly stir to mix.
+                        </p>
+                    </div>
+                <!---------------------Hiddden Mobile Caption-------------------------------->
+
+
 
 
         <!-------Row 3--------->
@@ -110,10 +147,10 @@
                 <div class="recipe-instructions" id="manhattan-recipe" style="display:none">
                     <h2>Ingredients</h2>
                     <ul>
-                        <li>1 1/2 oz Lo-Fi Sweet Vermouth</li>
-                        <li>1 1/2 ox rye whiskey</li>
-                        <li>2 dashes bitters</li>
-                        <li>Orange peel</li>
+                        <li>1.5 oz Lo-Fi Sweet Vermouth</li>
+                        <li>1.5 oz Rye Whiskey</li>
+                        <li>2 Dashes Bitters</li>
+                        <li>Orange Peel</li>
                     </ul>
                     <br>
                     <h2>Instructions</h2>
@@ -125,17 +162,60 @@
             <!---------------------Hiddden Recipe --------------------------------------->
 
 
-        <div class="caption" class="martini-caption">
+
+
+        <div class="caption" id="martini-caption">
             <h2>MARTINI</h2>
             <span>Lo-Fi Dry Vermouth</span>
-            <button>RECIPE</button>
+            <button onclick='martiniRecipe();'>SHOW RECIPE</button>
         </div>
 
-        <div class="caption" class="amaro-pink-caption">
+
+                <!---------------------Hiddden Recipe --------------------------------------->
+                <div class="recipe-instructions" id="martini-recipe" style="display:none">
+                    <h2>Ingredients</h2>
+                    <ul>
+                        <li>1.5 oz Lo-Fi Dry Vermouth</li>
+                        <li>1.5 oz London dry Style Gin</li>
+                        <li>2 Dashes Orange Bitters</li>
+                        <li>Lemon Peel</li>
+                    </ul>
+                    <br>
+                    <h2>Instructions</h2>
+                    <p>Combine ingredients in a cocktail pitcher and stir with ice. 
+                       Pour into a coupe or martini glass and garnish with lemon peel.
+                    </p>
+                    <button onclick="martiniRecipe();">HIDE RECIPE</button>
+                </div>
+                <!---------------------Hiddden Recipe --------------------------------------->
+
+
+
+        <div class="caption" id='amaro-pink-caption' class="amaro-pink-caption">
             <h2>PINK AND SMOKY</h2>
             <span>Lo-Fi Gentian Amaro</span>
-            <button>RECIPE</button>
+            <button onclick='amaropinkRecipe()'>RECIPE</button>
         </div>
+
+
+
+                <!---------------------Hiddden Recipe --------------------------------------->
+                <div class="recipe-instructions" id="amaropink-recipe" style="display:none">
+                    <h2>Ingredients</h2>
+                    <ul>
+                        <li>1.5 oz Lo-Fi Dry Vermouth</li>
+                        <li>1.5 oz London dry Style Gin</li>
+                        <li>2 Dashes Orange Bitters</li>
+                        <li>Lemon Peel</li>
+                    </ul>
+                    <br>
+                    <h2>Instructions</h2>
+                    <p>Combine ingredients in a cocktail pitcher and stir with ice. 
+                       Pour into a coupe or martini glass and garnish with lemon peel.
+                    </p>
+                    <button onclick="amaropinkRecipe();">HIDE RECIPE</button>
+                </div>
+                <!---------------------Hiddden Recipe --------------------------------------->
 
 
 
