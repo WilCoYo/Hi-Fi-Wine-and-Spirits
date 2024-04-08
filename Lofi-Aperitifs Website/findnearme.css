@@ -132,6 +132,11 @@ lowerNav li {
     color: black;
     font-weight: bold;
     font-size: 1.35rem;
+    
+}
+
+.barrel-room-section section {
+    text-align: center;
 }
 
 .barrel-room-link a:hover {
