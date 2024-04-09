@@ -9,7 +9,7 @@ body {
 }
 
 
-/********vv Header Section vv**********/
+/******** Header Section **********/
 header{
     position: fixed;
     top: 0;
@@ -97,17 +97,12 @@ lowerNav li {
 }
 
 
-/***********^^ Header Section ^^************/
 
 
 
 
 
-
-
-
-
-/***********vv Main Hero Banner vv**********/
+/*********** Hero Banner **********/
 
 .hero_banner img{
     width: 100%;
@@ -115,15 +110,11 @@ lowerNav li {
     margin-bottom: -1%;
 }
 
-/***********^^ Main Hero Banner ^^**********/
 
 
 
 
-
-
-
-/***********vv About Us Section vv**********/
+/*********** About Us Section **********/
 
 .aboutUsSection {
     display: inline-flex;
@@ -304,13 +295,11 @@ lowerNav li {
 
 }
 
-/***********^^ About Us Section ^^**********/
 
 
 
 
-
-/***********vv Shopping Section vv**********/
+/*********** Product/Shopping Section **********/
 
 .shopSection {
     width: 100%;
@@ -431,12 +420,12 @@ lowerNav li {
     }
 }
 
-/***********^^ Shopping Section ^^**********/
 
 
 
 
-/***********vv Cocktail Section vv**********/
+
+/*********** Cocktail Section **********/
 
 .cocktail {
     display: inline-flex;
@@ -573,11 +562,9 @@ lowerNav li {
 }
 
 
-/***********^^ Cocktail Section ^^**********/
 
 
-
-/*********vv Social Media Section vv*********/
+/********* Social Media Section *********/
 
 .social {
     width: 100%;
@@ -622,7 +609,9 @@ lowerNav li {
     }
 }
 
-/*********^^ Social Media Section ^^*********/
+
+
+/********* Footer Section *********/
 
 footer {
     display: flex;
@@ -714,6 +703,8 @@ footer {
 }
 
 
+
+/********* Footer Base Section *********/
 
 .footerBase {
     display: flex;
