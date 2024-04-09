@@ -107,37 +107,39 @@ lowerNav li {
 .hero-banner {
     position: relative;
     display: inline-block;
+    margin-top: 14rem;
 }
 
 .hero-banner img {
     width: 100%;
-
+    display: block;
 }
 
 
-.hero-banner h1 {
+.hero-banner-caption {
     font-size: 5rem;
-    color: #F8445D;
-    background-color: rgba(255, 255, 255, 0.3);
-    text-shadow: white 1px 0 4px;
+    color: white;
+    text-shadow: #F8445D 1px 0 4px;
     font-family: "Big Shoulders Inline Text", sans-serif;
     letter-spacing: 1rem;
     position: absolute;
-    top: 45%;
-    left: 32%;
-}
-
-@media only screen and (max-width: 27.8rem){
-    .hero-banner h1 {
-        display: none;
-    }
+    top: 50%;
+    left: 50%;
+    transform: translate( -50%, -50% );
+    text-align: center;
+    font-weight: bold;
 }
 
 
-@media only screen and (max-width: 47.5rem){
+
+@media only screen and (max-width: 47.5em){
 
     .hero-banner img {
        display: none;
+    }
+
+    .hero-banner-caption h1 {
+        display: none;
     }
 
     .hero-banner {
@@ -146,13 +148,16 @@ lowerNav li {
         align-content: center;
     }
 
-    .hero-banner h1 {
-        position: relative;
-        top: unset;
-        left: unset;
-        padding-top: 1rem;
-    }
+   
 }
+
+@media only screen and (max-width: 52.8em) {
+    .hero_banner_caption h1 {
+        font-size: 5rem;
+    }
+
+}
+
 
 
 
