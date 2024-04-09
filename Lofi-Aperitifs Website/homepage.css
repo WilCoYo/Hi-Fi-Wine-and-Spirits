@@ -325,9 +325,6 @@ lowerNav li {
     color: #F8445D;
 }
 
-.productOne img {
-    width: 86%;
-}
 
 
 
@@ -373,8 +370,8 @@ lowerNav li {
 .shopSection section {
     font-family: "Montserrat", sans-serif;
     color: #F8445D;
-    padding-top: 1rem;
-    padding-bottom: 1rem;
+    padding: 1rem 2rem;
+    
 }
 
 
