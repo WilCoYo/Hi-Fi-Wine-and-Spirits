@@ -306,7 +306,7 @@ footer {
     padding-left: 2%;
 }
 
-@media only screen and (max-width: 26.25em){
+@media only screen and (max-width: 27em){
     footer {
         padding-bottom: 2%;
     }
