@@ -21,19 +21,19 @@ header{
 }
 
 
-upperNav ul {
+.upperNav a {
     display: flex;
-    justify-content: space-between;
-    list-style: none;
-    margin: 2%;
+    justify-content: center;
+    width: 100%;
 }
 
-upperNav span {
-    color: #F8445D;
+
+
+#navLogo {
+    width: 15%;
 }
 
-upperNav li,
-upperNav a,
+
 lowerNav li,
 lowerNav a {
     text-decoration: none;
@@ -67,10 +67,6 @@ lowerNav li {
  
     #navLogo {
         margin: 0 auto;
-    }
-
-    upperNav ul {
-        margin: 0;
     }
 
     lowerNav ul {
@@ -183,7 +179,7 @@ lowerNav li {
 .aboutUs_2 {
     overflow: hidden;
     width: 50%;
-    background-image: url("../Resources/Images/AboutUs_Image.jpg");
+    background-image: url("../Resources/Images/AboutUs_Image_2.jpg");
     background-size: 100%;
     background-position: center;
     background-repeat: no-repeat;
@@ -329,6 +325,10 @@ lowerNav li {
     color: #F8445D;
 }
 
+.productOne img {
+    width: 86%;
+}
+
 
 
 .productTwo{
@@ -346,6 +346,8 @@ lowerNav li {
     text-decoration: none;
     color: #F8445D;
 }
+
+
 
 
 .productThree {
@@ -437,8 +439,8 @@ lowerNav li {
 .cocktailLeft {
     overflow: hidden;
     width: 50%;
-    background-image: url("../Resources/Images/cocktails_section.jpg");
-    background-position: top;
+    background-image: url("../Resources/Images/cocktails_section_2.jpg");
+    background-position: center;
     background-repeat: no-repeat;
     background-size: 100%;
 }
