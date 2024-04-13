@@ -18,35 +18,40 @@ header{
     background-color: white;
     box-shadow: 0px 14px 20px -20px rgba(192, 61, 61, 0.45);
     transition: 0.2s;
+    height: 8rem;
 }
 
-
-.upperNav a {
+lowerNav {
     display: flex;
-    justify-content: center;
     width: 100%;
 }
-
-
-
-#navLogo {
-    width: 15%;
-}
-
 
 lowerNav li,
 lowerNav a {
     text-decoration: none;
     color: black;
     font-family: "Montserrat", sans-serif;
+    align-content: center;
 }
 
 lowerNav ul {
     display: flex;
     justify-content: center;
+    align-content: center;
     list-style: none;
-    margin: 1% auto;
+    width: 100%;
+    margin-right: 11%;
 }
+
+#navLogo {
+    margin-right: auto;
+    width: 9%;
+}
+
+#navLogo img {
+    height: 8rem;
+}
+
 
 lowerNav li {
     padding: 0 2rem;
@@ -54,24 +59,20 @@ lowerNav li {
     
 }
 
-@media only screen and (min-width: 67em){
-    header {
-        height: 16rem;
-    }
-    
-
-}
 
 @media only screen and (max-width: 30rem){
 
- 
     #navLogo {
-        margin: 0 auto;
+        display: none;
+    }
+
+    header{
+        height: 4rem;
     }
 
     lowerNav ul {
         justify-content: center;
-        margin-top: 1rem;
+        margin-top: .5rem;
         margin-right: 1%;
     }
 
@@ -100,11 +101,17 @@ lowerNav li {
 
 /*********** Hero Banner **********/
 
+.hero_banner {
+    width: 100%;
+}
+
 .hero_banner img{
     width: 100%;
-    margin-top: 14rem;
+    margin-top: 4rem;
     margin-bottom: -1%;
 }
+
+
 
 
 
@@ -115,7 +122,6 @@ lowerNav li {
 .aboutUsSection {
     display: inline-flex;
     width: 100%;
-    height: 100%;
 }
 
 .aboutUs_1 {
@@ -124,7 +130,6 @@ lowerNav li {
     justify-content: center;
     align-items: center;
     background-color: #FF465E;
-    overflow: hidden;
 }
 
 .readMore {
@@ -144,7 +149,6 @@ lowerNav li {
 }
 
 .aboutUs_1 span {
-    height: 10%;
     font-size: 1.5rem;
     font-weight: bold;
     color: white;
@@ -206,24 +210,25 @@ lowerNav li {
     }
 
     .aboutUs_1 h1 {
-        font-size: 3rem;
+        font-size: 5rem;
         margin-bottom: 3.5%;
         padding-top: 2%;
     }
 
     .aboutUs_1 span {
-        font-size: 1.5rem;
+        font-size: 2rem;
         width: 100%;
     }
 
     .aboutUs_1 p {
-        font-size: 1rem;
+        font-size: 1.5rem;
         margin-top: 1rem;
     }
 
-    .readMore {
-        height: 75%;
-    }
+    /* .readMore {
+        height: 85%;
+
+    } */
 
   
 
@@ -248,11 +253,12 @@ lowerNav li {
     }
 
     .readMore {
-      margin: 0;
-      padding: 0;  
+      margin: 2rem 0;
+      padding: 0 1rem;  
     }
 
     .aboutUs_1 p {
+        font-size: 1rem;
         margin-top: .5rem;
         margin-bottom: .5rem;
     }
@@ -262,15 +268,11 @@ lowerNav li {
 @media only screen and (max-height: 39em){
 
    
-    .readMore {
-        height: 100%;   
+    .readMore {   
         padding-left: .5rem;
         padding-right: .5rem;
     }
 
-    .aboutUsSection {
-        height: 80%;
-    }
 
     .aboutUs_1 h1 {
         padding-top: 1rem;
@@ -428,7 +430,6 @@ lowerNav li {
 
 .cocktail {
     display: inline-flex;
-    height: 100%;
     width: 100%;
     padding-top: 2rem;
 }
@@ -495,10 +496,6 @@ lowerNav li {
 
 @media only screen and (max-width: 67.5em){
 
-    .cocktail{
-        height: 50%;
-        
-    }
 
     .cocktailLeft {
         display: none;
@@ -520,29 +517,35 @@ lowerNav li {
     }
 
     .cocktailRight section {
-        font-size: 1rem;
+        font-size: 1.5rem;
         padding: 0;
     }
 
     .cocktailRightContent {
         padding-top: 0;
-        height: 100%;
         width: 100%;
     }
 
     .cocktailRight button {
         margin-top: 2rem;
-
+        margin-bottom: 1rem;
     }
 
 }
 
-@media only screen and (max-height: 40em){
+@media only screen and (max-width: 30em) {
 
-    .cocktail {
-        height: 75%;
+    .cocktailRight h2 {
+        font-size: 4rem;
     }
     
+    .cocktailRight section {
+        font-size: 1rem;
+    }
+}
+
+@media only screen and (max-height: 40em){
+
     .cocktailRight h2 {
         font-size: 3rem;
         padding: 0;

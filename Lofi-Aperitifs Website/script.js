@@ -46,26 +46,26 @@ const underageChecker = () => {
 // Function for Header change in size after scrolling
 
 
-window.onscroll = function() {
-  scrollFunction()
-};
+// window.onscroll = function() {
+//   scrollFunction()
+// };
 
-const scrollFunction = () => {
-  if (document.body.scrollTop > 50 || document.documentElement.scrollTop > 50) {
-    document.getElementById("upperNav").style.display = "none";
-    document.querySelector("header").style.height = '7rem';
-    document.querySelector("lowerNav").style.margin = "1.5rem";
-  } else if (window.screen.width > 1080){
-    document.getElementById("upperNav").style.display = "";
-    document.querySelector("header").style.height = "16rem";
-    document.querySelector("lowerNav").style.margin = "";
-  } else {
-    document.getElementById("upperNav").style.display = "";
-    document.querySelector("header").style.height = "14rem";
-    document.querySelector("lowerNav").style.margin = "";
-  }
+// const scrollFunction = () => {
+//   if (document.body.scrollTop > 50 || document.documentElement.scrollTop > 50) {
+//     document.getElementById("upperNav").style.display = "none";
+//     document.querySelector("header").style.height = '10rem';
+//     document.querySelector("lowerNav").style.margin = "2rem";
+//   } else if (window.screen.width > 1080){
+//     document.getElementById("upperNav").style.display = "";
+//     document.querySelector("header").style.height = "10rem";
+//     document.querySelector("lowerNav").style.margin = "";
+//   } else {
+//     document.getElementById("upperNav").style.display = "";
+//     document.querySelector("header").style.height = "10rem";
+//     document.querySelector("lowerNav").style.margin = "";
+//   }
 
-}
+// }
 
 
 
