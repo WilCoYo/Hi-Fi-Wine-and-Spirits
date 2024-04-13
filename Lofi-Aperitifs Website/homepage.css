@@ -59,6 +59,7 @@ lowerNav li {
     
 }
 
+/*Mobile - Portrait */
 
 @media only screen and (max-width: 30rem){
 
@@ -91,6 +92,22 @@ lowerNav li {
     }
 
     
+}
+
+/* Mobile - Landscape */
+
+@media only screen and (max-height: 39em) {
+    #navLogo {
+        display: none;
+    }
+
+    header {
+        height: 4rem;
+    }
+
+    lowerNav ul {
+        margin-top: 1rem;
+    }
 }
 
 
@@ -135,7 +152,7 @@ lowerNav li {
 .readMore {
     text-align: center;
     padding: 3rem;
-    margin: 0 2rem 1rem 2rem;
+    margin: 1rem 2rem;
     background: #FF8D90;
 }
 
@@ -196,10 +213,6 @@ lowerNav li {
         display: none;
     }
 
-    .aboutUsSection {
-        height: 50%;
-    }
-
     .aboutUs_2 {
         display: none;
     }
@@ -225,12 +238,7 @@ lowerNav li {
         margin-top: 1rem;
     }
 
-    /* .readMore {
-        height: 85%;
-
-    } */
-
-  
+   
 
 }
 
@@ -275,12 +283,14 @@ lowerNav li {
 
 
     .aboutUs_1 h1 {
+        font-size: 3rem;
         padding-top: 1rem;
         padding-bottom: 1.5rem;
         margin: 0;
     }
 
     .aboutUs_1 p {
+        font-size: 1rem;
         padding-top: 1rem;
         margin: 0;
         margin-bottom: .4rem;
@@ -456,7 +466,7 @@ lowerNav li {
 }
 
 .cocktailRightContent {
-    width: 70%;
+    margin: 1rem 2rem;
 }
 
 .cocktailRightContent h2 {
@@ -503,7 +513,7 @@ lowerNav li {
 
     .cocktailRight {
         width: 100%;
-        padding: 0 10%;
+        padding: 0 5%;
         display: flex;
         justify-content: center;
     }
