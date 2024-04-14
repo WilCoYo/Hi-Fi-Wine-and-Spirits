@@ -67,9 +67,9 @@ lowerNav li {
         display: none;
     }
 
-    header{
-        height: 4rem;
-    }
+    /* header{
+        height: 8rem;
+    } */
 
     lowerNav ul {
         justify-content: center;
@@ -102,7 +102,7 @@ lowerNav li {
     }
 
     header {
-        height: 4rem;
+        height: 6rem;
     }
 
     lowerNav ul {
@@ -121,9 +121,11 @@ lowerNav li {
 /*********** Hero Banner **********/
 
 .hero-banner {
+    height: 35rem;
+    overflow: hidden;
     position: relative;
     display: inline-block;
-    margin-top: 6rem;
+    margin-top: 8rem;
 }
 
 .hero-banner img {
@@ -150,7 +152,7 @@ lowerNav li {
 
 @media only screen and (max-width: 47.5em){
 
-    .hero-banner img {
+    .hero-banner {
        display: none;
     }
 
@@ -158,21 +160,18 @@ lowerNav li {
         display: none;
     }
 
-    .hero-banner {
-        display: flex;
-        justify-content: center;
-        align-content: center;
-    }
-
-   
 }
 
-@media only screen and (max-width: 52.8em) {
-    .hero_banner_caption h1 {
+/* @media only screen and (max-width: 52.8em) {
+    .hero-banner-caption h1 {
         font-size: 5rem;
     }
 
-}
+} */
+
+
+
+
 
 
 
@@ -182,6 +181,7 @@ lowerNav li {
 .aboutUsSection {
     display: inline-flex;
     width: 100%;
+    margin-top: 2rem;
 }
 
 .aboutUs_1 {
@@ -289,6 +289,7 @@ lowerNav li {
 @media only screen and (max-width: 39em){
 
     .aboutUs_1 {
+        margin-top: 6rem;
         padding: 1rem;
 
     }
