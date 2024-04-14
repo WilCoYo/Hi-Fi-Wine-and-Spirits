@@ -22,7 +22,7 @@ header{
 }
 
 lowerNav {
-    display: flex;
+    display: block;
     width: 100%;
 }
 
@@ -40,16 +40,16 @@ lowerNav ul {
     align-content: center;
     list-style: none;
     width: 100%;
-    margin-right: 11%;
 }
 
-#navLogo {
-    margin-right: auto;
-    width: 9%;
+.homeIcon {
+    width: 100%;
+    text-align: center;
+    margin: 1rem 0;
 }
 
-#navLogo img {
-    height: 8rem;
+.homeIcon span {
+    font-size: 2rem;
 }
 
 
@@ -116,20 +116,63 @@ lowerNav li {
 
 
 
+
+
 /*********** Hero Banner **********/
 
-.hero_banner {
-    width: 100%;
+.hero-banner {
+    position: relative;
+    display: inline-block;
+    margin-top: 6rem;
 }
 
-.hero_banner img{
+.hero-banner img {
     width: 100%;
-    margin-top: 4rem;
-    margin-bottom: -1%;
+    display: block;
+}
+
+
+.hero-banner-caption {
+    font-size: 5rem;
+    color: white;
+    text-shadow: #F8445D 1px 0 4px;
+    font-family: "Big Shoulders Inline Text", sans-serif;
+    letter-spacing: 1rem;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate( -50%, -50% );
+    text-align: center;
+    font-weight: bold;
 }
 
 
 
+@media only screen and (max-width: 47.5em){
+
+    .hero-banner img {
+       display: none;
+    }
+
+    .hero-banner-caption h1 {
+        display: none;
+    }
+
+    .hero-banner {
+        display: flex;
+        justify-content: center;
+        align-content: center;
+    }
+
+   
+}
+
+@media only screen and (max-width: 52.8em) {
+    .hero_banner_caption h1 {
+        font-size: 5rem;
+    }
+
+}
 
 
 
