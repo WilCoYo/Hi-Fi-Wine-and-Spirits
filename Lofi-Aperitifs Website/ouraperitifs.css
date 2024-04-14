@@ -115,20 +115,48 @@ lowerNav li {
 /***********vv Main Hero Banner vv**********/
 
 .hero-banner {
+    height: 35rem;
+    overflow: hidden;
+    position: relative;
+    display: inline-block;
     margin-top: 8rem;
 }
 
-.hero-banner img{
+.hero-banner img {
     width: 100%;
-    margin-bottom: -1%;
+    display: block;
+}
+
+.hero-banner-caption {
+    font-size: 5rem;
+    color: white;
+    text-shadow: #F8445D 1px 0 4px;
+    font-family: "Big Shoulders Inline Text", sans-serif;
+    letter-spacing: 1rem;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate( -50%, -50% );
+    text-align: center;
+    font-weight: bold;
 }
 
 @media only screen and (max-width: 30rem){
 
-    .hero_banner {
+    .hero-banner {
         display: none;
     }
 
+    .hero-banner-caption h1 {
+        display: none;
+    }
+
+}
+
+@media only screen and (max-height: 40em) {
+    .hero-banner {
+        margin-top: 6rem;
+    }
 }
 
 
@@ -252,7 +280,7 @@ lowerNav li {
 
 @media only screen and (max-width: 30em){
     .shopSection {
-        padding-top: 14rem;
+        margin-top: 8rem;
         display: grid;
     }
 
