@@ -110,14 +110,14 @@ lowerNav li {
 
 
 .find-header {
-    margin-top: 10rem;
+    margin-top: 18rem;
     display: block;
     text-align: center;
     padding-top: 5rem;
 }
 
 .find-header h2 {
-    font-size: 3.5rem;
+    font-size: 5rem;
     margin-bottom: 2rem;
     font-family: "Big Shoulders Inline Text", sans-serif;
 }
@@ -134,7 +134,7 @@ lowerNav li {
     font-size: 1.25rem;
     font-family: "Montserrat", sans-serif;
     width: 25%;
-    margin: 2rem auto 5rem auto;
+    margin: 2rem auto 4rem auto;
     padding: 1rem;
 }
 
@@ -154,6 +154,10 @@ lowerNav li {
     text-decoration: underline;
     color: #F8445D;
 } 
+
+
+
+
 
 
 footer {
@@ -263,7 +267,9 @@ footer {
     display: flex;
     padding-top: 3%;
     padding-bottom: 1%;
+    margin-bottom: 0;
     background-color: #CDEAF5;
+    
 }
 
 
@@ -275,6 +281,7 @@ footer {
 
 .footerBaseLeft span {
     align-self: flex-end;
+    text-decoration: underline;
 }
 
 
