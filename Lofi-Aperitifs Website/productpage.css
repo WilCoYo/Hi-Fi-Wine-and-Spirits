@@ -7,7 +7,7 @@ body {
     height: 100vh;
 }
 
-/********vv Header Section vv**********/
+/******** Header Section **********/
 header{
     position: fixed;
     top: 0;
@@ -16,35 +16,40 @@ header{
     background-color: white;
     box-shadow: 0px 14px 20px -20px rgba(192, 61, 61, 0.45);
     transition: 0.2s;
+    height: 8rem;
 }
 
-
-upperNav ul {
-    display: flex;
-    justify-content: space-between;
-    list-style: none;
-    margin: 2%;
+lowerNav {
+    display: block;
+    width: 100%;
 }
 
-upperNav span {
-    color: #F8445D;
-}
-
-upperNav li,
-upperNav a,
 lowerNav li,
 lowerNav a {
     text-decoration: none;
     color: black;
     font-family: "Montserrat", sans-serif;
+    align-content: center;
 }
 
 lowerNav ul {
     display: flex;
     justify-content: center;
+    align-content: center;
     list-style: none;
-    margin: 1% auto;
+    width: 100%;
 }
+
+.homeIcon {
+    width: 100%;
+    text-align: center;
+    margin: 1rem 0;
+}
+
+.homeIcon span {
+    font-size: 2rem;
+}
+
 
 lowerNav li {
     padding: 0 2rem;
@@ -52,28 +57,21 @@ lowerNav li {
     
 }
 
-@media only screen and (min-width: 67em){
-    header {
-        height: 16rem;
-    }
-    
-
-}
+/*Mobile - Portrait */
 
 @media only screen and (max-width: 30rem){
 
- 
     #navLogo {
-        margin: 0 auto;
+        display: none;
     }
 
-    upperNav ul {
-        margin: 0;
-    }
+    /* header{
+        height: 8rem;
+    } */
 
     lowerNav ul {
         justify-content: center;
-        margin-top: 1rem;
+        margin-top: .5rem;
         margin-right: 1%;
     }
 
@@ -94,6 +92,21 @@ lowerNav li {
     
 }
 
+/* Mobile - Landscape */
+
+@media only screen and (max-height: 39em) {
+    #navLogo {
+        display: none;
+    }
+
+    header {
+        height: 6rem;
+    }
+
+    lowerNav ul {
+        margin-top: 1rem;
+    }
+}
 
 /***********^^ Header Section ^^************/
 
@@ -107,11 +120,13 @@ lowerNav li {
 }
 
 .gentian-image {
-    margin-top: 14rem;
+    margin-top: 8rem;
     padding-top: 8rem;
     justify-self: center;
     align-self: center;
 }
+
+
 
 img {
     width: 100%;
@@ -119,7 +134,7 @@ img {
 
 
 #product-info {
-    margin-top: 14rem;
+    margin-top: 8rem;
     padding-top: 8rem;
     justify-self: start;
     width: 100%;
@@ -170,7 +185,7 @@ img {
 }
 
 .dryvermouth-info {
-    margin-top: 5rem !important;
+    margin-top: 3rem !important;
 }
 
 .sweetvermouth-info {
@@ -189,6 +204,10 @@ img {
         grid-template-columns: 1fr;
     }
 
+    .topHeader {
+        margin-top: 6rem;
+    }
+
     #product-info {
         margin: 0;
         padding: 0;
@@ -205,16 +224,65 @@ img {
     #product-image {
         padding-top: 5rem;
     }
+
+    .gentian-image {
+        margin-top: 0;
+        padding-top: 7rem;
+    }
+
+    .sweetvermouth-image {
+        padding-top: 4rem;
+    }
+
+    .dryvermouth-image {
+        padding-top: 4rem;
+    }
 }
 
 @media only screen and (max-height: 30rem) {
     .grid_container {
         grid-template-columns: 1fr 1fr;
+        margin-top: 8rem!important;
+        padding-top: 0!important;
     }
 
     .hide-on-landscape {
         display: none;
     }
+
+    .gentian-image {
+        margin-top: 0;
+        padding-top: 0;
+    }
+
+    .gentian-info {
+        margin-top: 8rem!important;
+        padding-top: 12rem!important;
+    }
+
+    .dryvermouth-image  {
+        margin-top: 2rem!important;
+        padding-top: 0;
+    }
+
+    .dryvermouth-info {
+        margin-top: 1.5rem!important;
+        padding-top: 0!important;
+    }
+
+    .sweetvermouth-image {
+        margin-top: 0!important;
+        padding-top: 0!important;
+    }
+
+    .sweetvermouth-info {
+        margin-top: 12rem!important;
+        padding-top: 12rem!important;
+    }
+
+    
+
+
 }
 
 
