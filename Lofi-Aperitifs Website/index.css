@@ -18,6 +18,14 @@ header img {
     width: 15%;
 }
 
+@media only screen and (max-width: 30rem){
+    header img {
+        width: 20%;
+    }
+}
+
+
+
 
 /*Welcome && Disclaimer*/
 
@@ -44,6 +52,8 @@ section {
 section a {
     color: black;
 }
+
+
 
 
 /*Birthdate Entry Inputs && Submit Button*/
@@ -74,7 +84,7 @@ section a {
 
 
 
-@media(max-width: 770px){
+@media only screen and (max-width: 48em){
 
     section{
         width: 100%;
@@ -94,7 +104,7 @@ section a {
 
 }
 
-@media(max-width: 400px){
+@media only screen and (max-width: 25em){
 
     .ageForm {
         display: grid;
