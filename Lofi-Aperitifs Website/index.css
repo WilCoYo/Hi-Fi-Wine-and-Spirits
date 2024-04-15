@@ -11,7 +11,6 @@ header {
     justify-content: center;
     align-content: center;
     width: 100%;
-    margin-top: 5rem;
 }
 
 
@@ -69,105 +68,8 @@ section a {
 }
 
 
-/*Copyright and Footer*/
-
-footer{
-    position: fixed;
-    bottom: 0;
-    width: 100%;
-    text-align: center;
-    align-content: center;
-}
-
-footer span{
-    bottom: 0;
-    left: 0;
-    width: 50%;
-    font-size: 1.1rem;
-    letter-spacing: .2rem;
-}
-
-footer ul {
-    list-style: none;
-    display: flex;
-    justify-content: center;
-}
-
-footer li {
-    height: 2rem;
-    padding: 0 3rem 1rem 3rem;
-    text-decoration: none;
-    color: black;
-    align-items: center;
-    font-family: "Montserrat", sans-serif;
-}
-
-footer a {
-    height: 100%;
-    text-decoration: none;
-    color: black;
-}
-
-footer a:hover {
-    text-decoration: underline;
-}
-
-
-/*Dialogue box that appears when 'Trademarks link is clicked*/
-
-#dialog{
-    position: fixed;
-    top: 50%;
-    left: 50%;
-    height: 30%;
-    width: 35%;
-    -webkit-transform: translate(-50%, -50%);
-    transform: translate(-50%, -50%);
-    display: none;
-    z-index: 999;
-    background-color: white;
-    text-align: center;
-}
-
-#dialog h1 {
-    padding-top: 7%;
-    font-size: 3rem;
-    font-family: "Big Shoulders Inline Text", sans-serif;
-    letter-spacing: .4rem;
-}
-
-#dialog p {
-    padding-top: 12%;
-    font-size: 1.25rem;
-    font-family: "Montserrat", sans-serif;
-}
-
-.material-symbols-outlined{
-    position: absolute;
-    text-decoration: none;
-    right: 1%;
-    top: 3%;
-}
-
-/*Dims screen behind 'Trademarks' dialogue box*/
-
-#dimmer {
-    display: none;
-    height: 100vh;
-    width: 100%;
-    background-color: rgba(104, 102, 102, 0.658);
-    z-index: 998;
-}
-
-
-
-/*Media Queries*/
 
 @media(max-width: 770px){
-
-    footer {
-        position: relative;
-    }
 
     section{
         width: 100%;
@@ -185,43 +87,9 @@ footer a:hover {
         margin: 0 10% 0 10%;
     }
 
-
-    footer span {
-        position: absolute;
-        bottom: 0;
-        width: 100%;
-        margin: 5% auto 0;
-        text-align: center;
-    }
-
-    footer ul{
-        display: inline-block;
-        margin-bottom: 10%;
-    }
-    
-    li.footerLinks{
-        justify-content: center;
-    }
-
 }
 
 @media(max-width: 400px){
-
-
-    footer span{
-        display: none;
-    }
-
-    footer ul {
-        display: inline-flex;
-        width: 100%;
-        margin-top: 2%;
-        margin-bottom: 0;
-    }
-
-    footer li {
-        padding: 1%;
-    }
 
     .ageForm {
         display: grid;
@@ -240,4 +108,188 @@ footer a:hover {
         margin-top: 3%;
     }
 }
+
+
+
+
+
+
+
+
+
+
+
+/********* Footer Section *********/
+
+footer {
+    display: flex;
+    background-color: #CDEAF5;
+    margin-top: 4%;
+    box-shadow: 0px -14px 20px -20px rgba(192, 61, 61, 0.45);
+}
+
+
+
+.footerLeft {
+    width: 50%;
+    padding-left: 5%;
+}
+
+.footerLeft ul {
+    list-style: none;
+    padding-top: 5%;
+}
+
+.footerLeft li {
+    padding-bottom: 3%;
+    font-size: 1.25rem;
+    font-family: "Montserrat", sans-serif;
+}
+
+.footerLeft a {
+    cursor: pointer;
+    text-decoration: none;
+    color: rgb(43, 41, 41);
+}
+
+
+
+.footerRight {
+    width: 50%;
+    padding-right: 5%;
+}
+
+.footerRight ul {
+    list-style: none;
+    text-align: right;
+    padding-top: 5%;
+}
+
+.footerRight li {
+    padding-bottom: 3%;
+    font-size: 1.25rem;
+    font-family: "Montserrat", sans-serif;
+}
+
+.footerRight a {
+    cursor: pointer;
+    text-decoration: none;
+    color: #F8445D;
+    padding: 1%;
+    margin-left: 3%;
+    font-size: 2rem;
+    border: solid #F8445D;
+    border-width: .1rem;
+    border-radius: 50%;
+    height: 2rem;
+    width: 2rem;    
+    text-align: center;
+}
+
+#socialLinks {
+    padding-top: 5%;
+    padding-left: 2%;
+}
+
+@media only screen and (max-width: 27em){
+    footer {
+        padding-bottom: 2%;
+    }
+
+    .footerRight ul {
+        padding-top: 1%;
+    }
+
+    .footerRight li {
+        padding-top: 8%;
+    }
+
+    .footerLeft li {
+        font-size: 1rem;
+        padding-top: 3%;
+    }
+}
+
+
+
+/********* Footer Base Section *********/
+
+.footerBase {
+    display: flex;
+    padding-top: 3%;
+    padding-bottom: 1%;
+    background-color: #CDEAF5;
+}
+
+
+.footerBaseLeft{
+    width: 50%;
+    padding-left: 5%;
+    display: flex;
+    text-decoration: underline;
+}
+
+.footerBaseLeft span {
+    align-self: flex-end;
+    
+}
+
+
+.footerBaseRight {
+    width: 50%;
+    padding-right: 5%;
+    display: inline;
+    justify-content: end;
+}
+
+.footerBaseRight ul {
+    text-align: right;
+    list-style: none;
+}
+
+.footerBaseRight li {
+    display: inline;
+    padding-left: 2%;
+    font-size: .9rem;
+    font-family: "Montserrat", sans-serif;
+}
+
+.footerBaseRight a {
+    cursor: pointer;
+    text-decoration: none;
+    color: black;
+}
+
+@media only screen and (max-width: 42em){
+     .footerBase{
+        display: block;
+        border-top: .1rem solid black;
+
+     }
+
+     .footerBaseLeft{
+        width: 100%;
+        padding: 0;
+     }
+
+     .footerBaseLeft span {
+        margin: 0 auto;
+        padding: 0 5.5%;
+     }
+
+     .footerBaseRight {
+        width: 100%;
+        padding: 0;
+     }
+
+     .footerBaseRight ul {
+        padding-top: 1rem;
+        text-align: center;
+     }
+}
+
+
+
+
+
 
