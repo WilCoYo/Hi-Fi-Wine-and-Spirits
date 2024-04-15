@@ -245,9 +245,12 @@ lowerNav li {
     width: 50%;
     background-image: url("../Resources/Images/AboutUs_Image_2.jpg");
     background-size: 100%;
-    background-position: center;
+    background-position: 50% 75%;
     background-repeat: no-repeat;
 }
+
+
+
 
 
 @media only screen and (max-width: 67.5em){
@@ -492,7 +495,7 @@ lowerNav li {
     overflow: hidden;
     width: 50%;
     background-image: url("../Resources/Images/cocktails_section_2.jpg");
-    background-position: center;
+    background-position: 50% 60%;
     background-repeat: no-repeat;
     background-size: 100%;
 }
