@@ -13,16 +13,20 @@ header {
     width: 100%;
 }
 
+header img {
+    width: 15%;
+}
+
 
 /*Welcome && Disclaimer*/
 
 .welcome {
     display: flex;
     justify-content: center;
-    padding-top: 3%;
     font-size: 3rem;
     font-family: "Big Shoulders Inline Text", sans-serif;
     letter-spacing: .5rem;
+    margin-top: 2rem;
 }
 
 section {
