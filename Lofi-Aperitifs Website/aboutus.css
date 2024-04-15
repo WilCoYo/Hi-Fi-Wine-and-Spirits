@@ -217,12 +217,14 @@ lowerNav li {
 
 .vermouth-image img {
     width: 75%;
+    margin-bottom: 1rem;
 }
 
 .vermouth-image a {
     text-decoration: none;
     color: black;
 }
+
 
 .vermouth-image a:hover {
     text-decoration: underline;
