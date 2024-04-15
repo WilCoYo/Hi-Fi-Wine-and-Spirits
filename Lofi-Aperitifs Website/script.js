@@ -43,29 +43,17 @@ const underageChecker = () => {
 
 
 
-// Function for Header change in size after scrolling
+const loginAlert = () => {
+  alert('Without verifying your age, you can try emailing or calling us for more information at:\n \nEmail: hifiwineandspirits@fakeemail.com \nPhone: (555)555-5555');
+}
 
 
-// window.onscroll = function() {
-//   scrollFunction()
-// };
 
-// const scrollFunction = () => {
-//   if (document.body.scrollTop > 50 || document.documentElement.scrollTop > 50) {
-//     document.getElementById("upperNav").style.display = "none";
-//     document.querySelector("header").style.height = '10rem';
-//     document.querySelector("lowerNav").style.margin = "2rem";
-//   } else if (window.screen.width > 1080){
-//     document.getElementById("upperNav").style.display = "";
-//     document.querySelector("header").style.height = "10rem";
-//     document.querySelector("lowerNav").style.margin = "";
-//   } else {
-//     document.getElementById("upperNav").style.display = "";
-//     document.querySelector("header").style.height = "10rem";
-//     document.querySelector("lowerNav").style.margin = "";
-//   }
 
-// }
+
+
+
+
 
 
 

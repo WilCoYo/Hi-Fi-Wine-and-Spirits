@@ -11,6 +11,7 @@ header {
     justify-content: center;
     align-content: center;
     width: 100%;
+    margin-top: 1rem;
 }
 
 header img {
@@ -148,15 +149,8 @@ footer {
     padding-bottom: 3%;
     font-size: 1.25rem;
     font-family: "Montserrat", sans-serif;
-}
-
-.footerLeft a {
     cursor: pointer;
-    text-decoration: none;
-    color: rgb(43, 41, 41);
 }
-
-
 
 .footerRight {
     width: 50%;
