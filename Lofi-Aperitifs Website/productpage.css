@@ -113,8 +113,8 @@ lowerNav li {
     align-self: center;
 }
 
-#product-image img {
-    width: 150%;
+img {
+    width: 100%;
 }
 
 
