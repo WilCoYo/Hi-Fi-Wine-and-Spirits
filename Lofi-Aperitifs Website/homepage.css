@@ -774,10 +774,12 @@ footer {
     width: 50%;
     padding-left: 5%;
     display: flex;
+    text-decoration: underline;
 }
 
 .footerBaseLeft span {
     align-self: flex-end;
+    
 }
 
 
