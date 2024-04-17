@@ -187,6 +187,7 @@ lowerNav li {
       grid-template-columns: repeat(1, 1fr);
       padding: 1em;
       justify-items: center;
+      margin-top: 6rem;
     }
 
     .headers {
