@@ -559,9 +559,7 @@ lowerNav li {
 
     .cocktailRight {
         width: 100%;
-        padding: 0 5%;
-        display: flex;
-        justify-content: center;
+       margin-right: 0;
     }
 
     .cocktailRight h2 {
@@ -661,7 +659,7 @@ lowerNav li {
 
 @media only screen and (max-width: 44em){
     .social h1 {
-        font-size: 3rem;
+        font-size: 2.5rem;
         padding-top: 4%;
         letter-spacing: .3rem;
     }
